@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name kicon_badge)(type KiCad)(uri ${KIPRJMOD}/libs/kicon_badge.pretty)(options "")(descr ""))
+)

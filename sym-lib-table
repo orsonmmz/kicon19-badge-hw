@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name kicon_badge)(type Legacy)(uri ${KIPRJMOD}/libs/kicon_badge.lib)(options "")(descr ""))
+)

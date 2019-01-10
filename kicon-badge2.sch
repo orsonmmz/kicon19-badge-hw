@@ -1,0 +1,2311 @@
+EESchema Schematic File Version 4
+LIBS:kicon-badge2-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Conn_ARM_JTAG_SWD_20 J6
+U 1 1 5C05E87D
+P 9450 2300
+F 0 "J6" H 8920 2346 50  0000 R CNN
+F 1 "Conn_ARM_JTAG_SWD_20" H 8920 2255 50  0000 R CNN
+F 2 "Connector_IDC:IDC-Header_2x10_P2.54mm_Vertical" H 9900 1250 50  0001 L TNN
+F 3 "http://infocenter.arm.com/help/topic/com.arm.doc.dui0499b/DUI0499B_system_design_reference.pdf" V 9100 1050 50  0001 C CNN
+F 4 "Digi-Key" H 3150 -300 50  0001 C CNN "Distrib1"
+F 5 "ED10529-ND" H 3150 -300 50  0001 C CNN "Distrib1Part"
+F 6 "0.3825" H 3150 -300 50  0001 C CNN "Distrib1Price"
+F 7 "Farnell" H 3150 -300 50  0001 C CNN "Distrib2"
+F 8 "2668422" H 3150 -300 50  0001 C CNN "Distrib2Part"
+F 9 "0.801" H 3150 -300 50  0001 C CNN "Distrib2Price"
+	1    9450 2300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C C6
+U 1 1 5CCDE916
+P 2550 6800
+AR Path="/5CCDE916" Ref="C6"  Part="1" 
+AR Path="/5CCDAE41/5CCDE916" Ref="C?"  Part="1" 
+F 0 "C6" H 2665 6846 50  0000 L CNN
+F 1 "100n" H 2665 6755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2588 6650 50  0001 C CNN
+F 3 "~" H 2550 6800 50  0001 C CNN
+F 4 "Digi-Key" H -1400 2650 50  0001 C CNN "Distrib1"
+F 5 "1276-1000-1-ND" H -1400 2650 50  0001 C CNN "Distrib1Part"
+F 6 "0.0154" H -1400 2650 50  0001 C CNN "Distrib1Price"
+	1    2550 6800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 6550 2550 6600
+$Comp
+L power:GND #PWR017
+U 1 1 5C06AD19
+P 2550 7050
+AR Path="/5C06AD19" Ref="#PWR017"  Part="1" 
+AR Path="/5CCDAE41/5C06AD19" Ref="#PWR?"  Part="1" 
+F 0 "#PWR017" H 2550 6800 50  0001 C CNN
+F 1 "GND" H 2555 6877 50  0000 C CNN
+F 2 "" H 2550 7050 50  0001 C CNN
+F 3 "" H 2550 7050 50  0001 C CNN
+	1    2550 7050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 7050 2550 7000
+$Comp
+L power:VBUS #PWR016
+U 1 1 5CCDE93E
+P 2550 6550
+AR Path="/5CCDE93E" Ref="#PWR016"  Part="1" 
+AR Path="/5CCDAE41/5CCDE93E" Ref="#PWR?"  Part="1" 
+F 0 "#PWR016" H 2550 6400 50  0001 C CNN
+F 1 "VBUS" H 2565 6723 50  0000 C CNN
+F 2 "" H 2550 6550 50  0001 C CNN
+F 3 "" H 2550 6550 50  0001 C CNN
+	1    2550 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L kicon_badge:AP3429A U2
+U 1 1 5CCDE944
+P 3800 6700
+AR Path="/5CCDE944" Ref="U2"  Part="1" 
+AR Path="/5CCDAE41/5CCDE944" Ref="U?"  Part="1" 
+F 0 "U2" H 3800 7025 50  0000 C CNN
+F 1 "AP3429A" H 3800 6934 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:TSOT-23-5" H 3650 6500 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/AP3429.pdf" H 3800 6400 50  0001 C CNN
+F 4 "Digi-Key" H -1200 2650 50  0001 C CNN "Distrib1"
+F 5 "AP3429AKTTR-G1DICT-ND" H -1200 2650 50  0001 C CNN "Distrib1Part"
+F 6 "0.2451" H -1200 2650 50  0001 C CNN "Distrib1Price"
+F 7 "Mouser" H -1200 2650 50  0001 C CNN "Distrib2"
+F 8 "621-AP3429AKTTR-G1" H -1200 2650 50  0001 C CNN "Distrib2Part"
+F 9 "0.148" H -1200 2650 50  0001 C CNN "Distrib2Price"
+	1    3800 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C7
+U 1 1 5C06AD1E
+P 2950 6800
+AR Path="/5C06AD1E" Ref="C7"  Part="1" 
+AR Path="/5CCDAE41/5C06AD1E" Ref="C?"  Part="1" 
+F 0 "C7" H 3065 6846 50  0000 L CNN
+F 1 "22u/6.3V" H 3065 6755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2988 6650 50  0001 C CNN
+F 3 "~" H 2950 6800 50  0001 C CNN
+F 4 "Digi-Key" H -1300 2650 50  0001 C CNN "Distrib1"
+F 5 "1276-6687-1-ND" H -1300 2650 50  0001 C CNN "Distrib1Part"
+F 6 "0.061" H -1300 2650 50  0001 C CNN "Distrib1Price"
+F 7 "Digi-Key" H -1300 2650 50  0001 C CNN "Distrib2"
+F 8 "1276-1100-1-ND" H -1300 2650 50  0001 C CNN "Distrib2Part"
+F 9 "0.067" H -1300 2650 50  0001 C CNN "Distrib2Price"
+	1    2950 6800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 6950 2950 7000
+Wire Wire Line
+	2950 7000 2550 7000
+Connection ~ 2550 7000
+Wire Wire Line
+	2550 7000 2550 6950
+Wire Wire Line
+	2950 6650 2950 6600
+Wire Wire Line
+	2950 6600 2550 6600
+Connection ~ 2550 6600
+Wire Wire Line
+	2550 6600 2550 6650
+Wire Wire Line
+	3500 6700 3400 6700
+Wire Wire Line
+	3400 6700 3400 6600
+Wire Wire Line
+	3400 6600 2950 6600
+Connection ~ 2950 6600
+Wire Wire Line
+	3400 6600 3500 6600
+Connection ~ 3400 6600
+$Comp
+L power:GND #PWR018
+U 1 1 5C06AD1F
+P 3500 6900
+AR Path="/5C06AD1F" Ref="#PWR018"  Part="1" 
+AR Path="/5CCDAE41/5C06AD1F" Ref="#PWR?"  Part="1" 
+F 0 "#PWR018" H 3500 6650 50  0001 C CNN
+F 1 "GND" H 3505 6727 50  0000 C CNN
+F 2 "" H 3500 6900 50  0001 C CNN
+F 3 "" H 3500 6900 50  0001 C CNN
+	1    3500 6900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 6800 3500 6900
+$Comp
+L Device:L L1
+U 1 1 5C06AD20
+P 4300 6600
+AR Path="/5C06AD20" Ref="L1"  Part="1" 
+AR Path="/5CCDAE41/5C06AD20" Ref="L?"  Part="1" 
+F 0 "L1" V 4490 6600 50  0000 C CNN
+F 1 "2.2u" V 4399 6600 50  0000 C CNN
+F 2 "Inductor_SMD:L_1206_3216Metric" H 4300 6600 50  0001 C CNN
+F 3 "~" H 4300 6600 50  0001 C CNN
+F 4 "LBR2518T2R2M" V 4300 6600 50  0001 C CNN "MFN"
+F 5 "Digi-Key" H -1200 2650 50  0001 C CNN "Distrib1"
+F 6 "587-2050-1-ND" H -1200 2650 50  0001 C CNN "Distrib1Part"
+F 7 "0.0966" H -1200 2650 50  0001 C CNN "Distrib1Price"
+F 8 "Mouser" H -1200 2650 50  0001 C CNN "Distrib2"
+F 9 "LBR2518T2R2M" H -1200 2650 50  0001 C CNN "Distrib2Part"
+F 10 "0.068" H -1200 2650 50  0001 C CNN "Distrib2Price"
+	1    4300 6600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4150 6600 4100 6600
+$Comp
+L Device:R R4
+U 1 1 5CCDE96C
+P 4850 6800
+AR Path="/5CCDE96C" Ref="R4"  Part="1" 
+AR Path="/5CCDAE41/5CCDE96C" Ref="R?"  Part="1" 
+F 0 "R4" H 4780 6754 50  0000 R CNN
+F 1 "300k" H 4780 6845 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4780 6800 50  0001 C CNN
+F 3 "~" H 4850 6800 50  0001 C CNN
+F 4 "Digi-Key" H -1200 2650 50  0001 C CNN "Distrib1"
+F 5 "541-300KGCT-ND" H -1200 2650 50  0001 C CNN "Distrib1Part"
+F 6 "0.0138" H -1200 2650 50  0001 C CNN "Distrib1Price"
+F 7 "Mouser" H -1200 2650 50  0001 C CNN "Distrib2"
+F 8 "71-CRCW0603-300K-E3" H -1200 2650 50  0001 C CNN "Distrib2Part"
+F 9 "0.015" H -1200 2650 50  0001 C CNN "Distrib2Price"
+	1    4850 6800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 5CCDE972
+P 4850 7200
+AR Path="/5CCDE972" Ref="R5"  Part="1" 
+AR Path="/5CCDAE41/5CCDE972" Ref="R?"  Part="1" 
+F 0 "R5" H 4780 7154 50  0000 R CNN
+F 1 "68k" H 4780 7245 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4780 7200 50  0001 C CNN
+F 3 "~" H 4850 7200 50  0001 C CNN
+F 4 "Digi-Key" H -1200 2650 50  0001 C CNN "Distrib1"
+F 5 "541-68KGCT-ND" H -1200 2650 50  0001 C CNN "Distrib1Part"
+F 6 "0.0138" H -1200 2650 50  0001 C CNN "Distrib1Price"
+	1    4850 7200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4850 7050 4850 7000
+Wire Wire Line
+	4850 7000 4500 7000
+Wire Wire Line
+	4100 7000 4100 6800
+Connection ~ 4850 7000
+Wire Wire Line
+	4850 7000 4850 6950
+Wire Wire Line
+	4450 6600 4500 6600
+Wire Wire Line
+	4850 6600 4850 6650
+$Comp
+L power:GND #PWR021
+U 1 1 5CCDE97F
+P 4850 7450
+AR Path="/5CCDE97F" Ref="#PWR021"  Part="1" 
+AR Path="/5CCDAE41/5CCDE97F" Ref="#PWR?"  Part="1" 
+F 0 "#PWR021" H 4850 7200 50  0001 C CNN
+F 1 "GND" H 4855 7277 50  0000 C CNN
+F 2 "" H 4850 7450 50  0001 C CNN
+F 3 "" H 4850 7450 50  0001 C CNN
+	1    4850 7450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 7350 4850 7400
+Wire Wire Line
+	4850 7400 5250 7400
+Wire Wire Line
+	5250 7400 5250 7150
+Connection ~ 4850 7400
+Wire Wire Line
+	4850 7400 4850 7450
+Wire Wire Line
+	5250 6850 5250 6600
+Wire Wire Line
+	5250 6600 4850 6600
+Connection ~ 4850 6600
+$Comp
+L Device:C C9
+U 1 1 5CCDE98D
+P 5250 7000
+AR Path="/5CCDE98D" Ref="C9"  Part="1" 
+AR Path="/5CCDAE41/5CCDE98D" Ref="C?"  Part="1" 
+F 0 "C9" H 5300 7100 50  0000 L CNN
+F 1 "22u/6.3V" H 5250 6900 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5288 6850 50  0001 C CNN
+F 3 "~" H 5250 7000 50  0001 C CNN
+F 4 "Digi-Key" H -1200 2650 50  0001 C CNN "Distrib1"
+F 5 "1276-6687-1-ND" H -1200 2650 50  0001 C CNN "Distrib1Part"
+F 6 "0.061" H -1200 2650 50  0001 C CNN "Distrib1Price"
+F 7 "Digi-Key" H -1200 2650 50  0001 C CNN "Distrib2"
+F 8 "1276-1100-1-ND" H -1200 2650 50  0001 C CNN "Distrib2Part"
+F 9 "0.067" H -1200 2650 50  0001 C CNN "Distrib2Price"
+	1    5250 7000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 7400 5650 7400
+Wire Wire Line
+	5650 7400 5650 7150
+Wire Wire Line
+	5650 6850 5650 6600
+Wire Wire Line
+	5650 6600 5250 6600
+$Comp
+L Device:C C10
+U 1 1 5C06AD25
+P 5650 7000
+AR Path="/5C06AD25" Ref="C10"  Part="1" 
+AR Path="/5CCDAE41/5C06AD25" Ref="C?"  Part="1" 
+F 0 "C10" H 5700 7100 50  0000 L CNN
+F 1 "22u/6.3V" H 5650 6900 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5688 6850 50  0001 C CNN
+F 3 "~" H 5650 7000 50  0001 C CNN
+F 4 "Digi-Key" H -1200 2650 50  0001 C CNN "Distrib1"
+F 5 "1276-6687-1-ND" H -1200 2650 50  0001 C CNN "Distrib1Part"
+F 6 "0.061" H -1200 2650 50  0001 C CNN "Distrib1Price"
+F 7 "Digi-Key" H -1200 2650 50  0001 C CNN "Distrib2"
+F 8 "1276-1100-1-ND" H -1200 2650 50  0001 C CNN "Distrib2Part"
+F 9 "0.067" H -1200 2650 50  0001 C CNN "Distrib2Price"
+	1    5650 7000
+	1    0    0    -1  
+$EndComp
+Connection ~ 5250 6600
+Connection ~ 5250 7400
+$Comp
+L Device:C C8
+U 1 1 5C06AD26
+P 4500 6800
+AR Path="/5C06AD26" Ref="C8"  Part="1" 
+AR Path="/5CCDAE41/5C06AD26" Ref="C?"  Part="1" 
+F 0 "C8" H 4550 6900 50  0000 L CNN
+F 1 "22p" H 4500 6700 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4538 6650 50  0001 C CNN
+F 3 "~" H 4500 6800 50  0001 C CNN
+F 4 "Digi-Key" H -1200 2650 50  0001 C CNN "Distrib1"
+F 5 "1276-2228-1-ND" H -1200 2650 50  0001 C CNN "Distrib1Part"
+F 6 "0.0223" H -1200 2650 50  0001 C CNN "Distrib1Price"
+F 7 "Mouser" H -1200 2650 50  0001 C CNN "Distrib2"
+F 8 "77-VJ0603A220JXAPBC" H -1200 2650 50  0001 C CNN "Distrib2Part"
+F 9 "0.013" H -1200 2650 50  0001 C CNN "Distrib2Price"
+	1    4500 6800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 6650 4500 6600
+Connection ~ 4500 6600
+Wire Wire Line
+	4500 6600 4850 6600
+Wire Wire Line
+	4500 6950 4500 7000
+Connection ~ 4500 7000
+Wire Wire Line
+	4500 7000 4100 7000
+$Comp
+L power:+3V3 #PWR024
+U 1 1 5C06AD2B
+P 6200 6550
+AR Path="/5C06AD2B" Ref="#PWR024"  Part="1" 
+AR Path="/5CCDAE41/5C06AD2B" Ref="#PWR?"  Part="1" 
+F 0 "#PWR024" H 6200 6400 50  0001 C CNN
+F 1 "+3V3" H 6215 6723 50  0000 C CNN
+F 2 "" H 6200 6550 50  0001 C CNN
+F 3 "" H 6200 6550 50  0001 C CNN
+	1    6200 6550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 6600 5850 6600
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 5BF7E834
+P 5850 6600
+AR Path="/5CCA506B/5BF7E834" Ref="#FLG?"  Part="1" 
+AR Path="/5CCDAE41/5BF7E834" Ref="#FLG?"  Part="1" 
+AR Path="/5BF7E834" Ref="#FLG01"  Part="1" 
+F 0 "#FLG01" H 5850 6675 50  0001 C CNN
+F 1 "PWR_FLAG" H 5850 6750 50  0000 C CNN
+F 2 "" H 5850 6600 50  0001 C CNN
+F 3 "~" H 5850 6600 50  0001 C CNN
+	1    5850 6600
+	1    0    0    -1  
+$EndComp
+Connection ~ 5850 6600
+Wire Wire Line
+	5650 6600 5850 6600
+$Comp
+L Device:LED D3
+U 1 1 5BFC1973
+P 6200 6800
+AR Path="/5BFC1973" Ref="D3"  Part="1" 
+AR Path="/5CCDAE41/5BFC1973" Ref="D?"  Part="1" 
+F 0 "D3" V 6239 6683 50  0000 R CNN
+F 1 "LED" V 6148 6683 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 6200 6800 50  0001 C CNN
+F 3 "~" H 6200 6800 50  0001 C CNN
+F 4 "Digi-Key" H -1700 4150 50  0001 C CNN "Distrib1"
+F 5 "160-1468-1-ND" H -1700 4150 50  0001 C CNN "Distrib1Part"
+F 6 "0.1159" H -1700 4150 50  0001 C CNN "Distrib1Price"
+F 7 "Mouser" H -1700 4150 50  0001 C CNN "Distrib2"
+F 8 "859-LTST-S220KGKT" H -1700 4150 50  0001 C CNN "Distrib2Part"
+F 9 "0.058" H -1700 4150 50  0001 C CNN "Distrib2Price"
+	1    6200 6800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 5BFC1979
+P 6200 7200
+AR Path="/5BFC1979" Ref="R6"  Part="1" 
+AR Path="/5CCDAE41/5BFC1979" Ref="R?"  Part="1" 
+F 0 "R6" H 6270 7246 50  0000 L CNN
+F 1 "120" H 6270 7155 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6130 7200 50  0001 C CNN
+F 3 "~" H 6200 7200 50  0001 C CNN
+F 4 "Digi-Key" H -1700 4150 50  0001 C CNN "Distrib1"
+F 5 "A129677CT-ND" H -1700 4150 50  0001 C CNN "Distrib1Part"
+F 6 "0.0121" H -1700 4150 50  0001 C CNN "Distrib1Price"
+	1    6200 7200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 6950 6200 7050
+Wire Wire Line
+	6200 6550 6200 6600
+Wire Wire Line
+	6200 6600 6200 6650
+Connection ~ 6200 6600
+$Comp
+L power:GND #PWR025
+U 1 1 5C06AD17
+P 6200 7450
+AR Path="/5C06AD17" Ref="#PWR025"  Part="1" 
+AR Path="/5CCDAE41/5C06AD17" Ref="#PWR?"  Part="1" 
+F 0 "#PWR025" H 6200 7200 50  0001 C CNN
+F 1 "GND" H 6205 7277 50  0000 C CNN
+F 2 "" H 6200 7450 50  0001 C CNN
+F 3 "" H 6200 7450 50  0001 C CNN
+	1    6200 7450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 7350 6200 7450
+$Comp
+L Connector:USB_B_Micro J7
+U 1 1 5BF36485
+P 10200 3850
+F 0 "J7" H 9970 3839 50  0000 R CNN
+F 1 "USB_B_Micro" H 9970 3748 50  0000 R CNN
+F 2 "kicon_badge:10118193-0001LF" H 10350 3800 50  0001 C CNN
+F 3 "~" H 10350 3800 50  0001 C CNN
+F 4 "Digi-Key" H 2800 -100 50  0001 C CNN "Distrib1"
+F 5 "609-4616-1-ND" H 2800 -100 50  0001 C CNN "Distrib1Part"
+F 6 "0.3275" H 2800 -100 50  0001 C CNN "Distrib1Price"
+F 7 "Mouser" H 2800 -100 50  0001 C CNN "Distrib2"
+F 8 "649-10118193-0001LF" H 2800 -100 50  0001 C CNN "Distrib2Part"
+F 9 "0.256" H 2800 -100 50  0001 C CNN "Distrib2Price"
+	1    10200 3850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C C13
+U 1 1 5BF3B074
+P 7700 2400
+F 0 "C13" V 7650 2250 50  0000 C CNN
+F 1 "22p" V 7750 2250 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7738 2250 50  0001 C CNN
+F 3 "~" H 7700 2400 50  0001 C CNN
+F 4 "Digi-Key" H 5700 350 50  0001 C CNN "Distrib1"
+F 5 "1276-2228-1-ND" H 5700 350 50  0001 C CNN "Distrib1Part"
+F 6 "0.0223" H 5700 350 50  0001 C CNN "Distrib1Price"
+F 7 "Mouser" H 5700 350 50  0001 C CNN "Distrib2"
+F 8 "77-VJ0603A220JXAPBC" H 5700 350 50  0001 C CNN "Distrib2Part"
+F 9 "0.013" H 5700 350 50  0001 C CNN "Distrib2Price"
+	1    7700 2400
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:C C14
+U 1 1 5BF3BA7D
+P 7700 2700
+F 0 "C14" V 7650 2550 50  0000 C CNN
+F 1 "22p" V 7750 2550 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7738 2550 50  0001 C CNN
+F 3 "~" H 7700 2700 50  0001 C CNN
+F 4 "Digi-Key" H 5700 350 50  0001 C CNN "Distrib1"
+F 5 "1276-2228-1-ND" H 5700 350 50  0001 C CNN "Distrib1Part"
+F 6 "0.0223" H 5700 350 50  0001 C CNN "Distrib1Price"
+F 7 "Mouser" H 5700 350 50  0001 C CNN "Distrib2"
+F 8 "77-VJ0603A220JXAPBC" H 5700 350 50  0001 C CNN "Distrib2Part"
+F 9 "0.013" H 5700 350 50  0001 C CNN "Distrib2Price"
+	1    7700 2700
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	7550 2400 7400 2400
+Wire Wire Line
+	7550 2700 7400 2700
+$Comp
+L power:GND #PWR028
+U 1 1 5BF3BE20
+P 8000 2750
+F 0 "#PWR028" H 8000 2500 50  0001 C CNN
+F 1 "GND" H 8000 2600 50  0000 C CNN
+F 2 "" H 8000 2750 50  0001 C CNN
+F 3 "" H 8000 2750 50  0001 C CNN
+	1    8000 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7850 2700 8000 2700
+Wire Wire Line
+	8000 2700 8000 2750
+Wire Wire Line
+	7850 2400 8000 2400
+Wire Wire Line
+	8000 2400 8000 2700
+Connection ~ 8000 2700
+Text Label 9550 3850 0    50   ~ 0
+USB1_D+
+Text Label 9550 3950 0    50   ~ 0
+USB1_D-
+Wire Wire Line
+	7050 2400 7400 2400
+$Comp
+L Device:LED D1
+U 1 1 5BF44B94
+P 3400 2300
+F 0 "D1" H 3550 2350 50  0000 C CNN
+F 1 "LED" H 3550 2350 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 3400 2300 50  0001 C CNN
+F 3 "~" H 3400 2300 50  0001 C CNN
+F 4 "Digi-Key" H 1300 -350 50  0001 C CNN "Distrib1"
+F 5 "160-1468-1-ND" H 1300 -350 50  0001 C CNN "Distrib1Part"
+F 6 "0.1159" H 1300 -350 50  0001 C CNN "Distrib1Price"
+F 7 "Mouser" H 1300 -350 50  0001 C CNN "Distrib2"
+F 8 "859-LTST-S220KGKT" H 1300 -350 50  0001 C CNN "Distrib2Part"
+F 9 "0.058" H 1300 -350 50  0001 C CNN "Distrib2Price"
+	1    3400 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D2
+U 1 1 5BF461FD
+P 3400 2500
+F 0 "D2" H 3550 2550 50  0000 C CNN
+F 1 "LED" H 3550 2550 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 3400 2500 50  0001 C CNN
+F 3 "~" H 3400 2500 50  0001 C CNN
+F 4 "Digi-Key" H 1300 -350 50  0001 C CNN "Distrib1"
+F 5 "160-1468-1-ND" H 1300 -350 50  0001 C CNN "Distrib1Part"
+F 6 "0.1159" H 1300 -350 50  0001 C CNN "Distrib1Price"
+F 7 "Mouser" H 1300 -350 50  0001 C CNN "Distrib2"
+F 8 "859-LTST-S220KGKT" H 1300 -350 50  0001 C CNN "Distrib2Part"
+F 9 "0.058" H 1300 -350 50  0001 C CNN "Distrib2Price"
+	1    3400 2500
+	1    0    0    -1  
+$EndComp
+Connection ~ 7400 2400
+$Comp
+L Device:R R1
+U 1 1 5BF4C869
+P 2900 2300
+F 0 "R1" V 2850 2100 50  0000 C CNN
+F 1 "120" V 2850 2500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2830 2300 50  0001 C CNN
+F 3 "~" H 2900 2300 50  0001 C CNN
+F 4 "Digi-Key" H 1200 -350 50  0001 C CNN "Distrib1"
+F 5 "A129677CT-ND" H 1200 -350 50  0001 C CNN "Distrib1Part"
+F 6 "0.0121" H 1200 -350 50  0001 C CNN "Distrib1Price"
+	1    2900 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5BF4CDEF
+P 2900 2500
+F 0 "R2" V 2850 2300 50  0000 C CNN
+F 1 "120" V 2850 2700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2830 2500 50  0001 C CNN
+F 3 "~" H 2900 2500 50  0001 C CNN
+F 4 "Digi-Key" H 1200 -350 50  0001 C CNN "Distrib1"
+F 5 "A129677CT-ND" H 1200 -350 50  0001 C CNN "Distrib1Part"
+F 6 "0.0121" H 1200 -350 50  0001 C CNN "Distrib1Price"
+	1    2900 2500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3250 2300 3050 2300
+Wire Wire Line
+	3250 2500 3050 2500
+$Comp
+L power:GND #PWR012
+U 1 1 5BF4F8F2
+P 2600 2550
+F 0 "#PWR012" H 2600 2300 50  0001 C CNN
+F 1 "GND" H 2450 2500 50  0000 C CNN
+F 2 "" H 2600 2550 50  0001 C CNN
+F 3 "" H 2600 2550 50  0001 C CNN
+	1    2600 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 2500 2600 2500
+Wire Wire Line
+	2600 2500 2600 2550
+Wire Wire Line
+	2750 2300 2600 2300
+Wire Wire Line
+	2600 2300 2600 2500
+Connection ~ 2600 2500
+$Comp
+L power:VBUS #PWR032
+U 1 1 5BF68CBD
+P 9800 3450
+F 0 "#PWR032" H 9800 3300 50  0001 C CNN
+F 1 "VBUS" H 9815 3623 50  0000 C CNN
+F 2 "" H 9800 3450 50  0001 C CNN
+F 3 "" H 9800 3450 50  0001 C CNN
+	1    9800 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR035
+U 1 1 5BF69B40
+P 10200 4300
+F 0 "#PWR035" H 10200 4050 50  0001 C CNN
+F 1 "GND" H 10205 4127 50  0000 C CNN
+F 2 "" H 10200 4300 50  0001 C CNN
+F 3 "" H 10200 4300 50  0001 C CNN
+	1    10200 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10200 4250 10200 4300
+$Comp
+L Device:R R11
+U 1 1 5BF6D62B
+P 10300 4750
+F 0 "R11" H 10230 4704 50  0000 R CNN
+F 1 "1M" H 10230 4795 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 10230 4750 50  0001 C CNN
+F 3 "~" H 10300 4750 50  0001 C CNN
+F 4 "Digi-Key" H 2800 -100 50  0001 C CNN "Distrib1"
+F 5 "RMCF0603JT1M00CT-ND" H 2800 -100 50  0001 C CNN "Distrib1Part"
+F 6 "0.0064" H 2800 -100 50  0001 C CNN "Distrib1Price"
+F 7 "Mouser" H 2800 -100 50  0001 C CNN "Distrib2"
+F 8 "652-CR0603-JW-105ELF" H 2800 -100 50  0001 C CNN "Distrib2Part"
+F 9 "0.004" H 2800 -100 50  0001 C CNN "Distrib2Price"
+	1    10300 4750
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:C C20
+U 1 1 5BF6DAD4
+P 9900 4750
+F 0 "C20" H 10015 4796 50  0000 L CNN
+F 1 "1n" H 10015 4705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9938 4600 50  0001 C CNN
+F 3 "~" H 9900 4750 50  0001 C CNN
+F 4 "1276-1131-1-ND" H 2700 -100 50  0001 C CNN "Distrib1Part"
+F 5 "0.013" H 2700 -100 50  0001 C CNN "Distrib1Price"
+F 6 "Digi-Key" H 2700 -100 50  0001 C CNN "Distrib1"
+F 7 "Farnell" H 2700 -100 50  0001 C CNN "Distrib2"
+F 8 "2320801" H 2700 -100 50  0001 C CNN "Distrib2Part"
+F 9 "0.026" H 2700 -100 50  0001 C CNN "Distrib2Price"
+	1    9900 4750
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	10300 4250 10300 4550
+Wire Wire Line
+	9900 4600 9900 4550
+Wire Wire Line
+	9900 4550 10300 4550
+Connection ~ 10300 4550
+Wire Wire Line
+	10300 4550 10300 4600
+Wire Wire Line
+	10300 4900 10300 4950
+Wire Wire Line
+	10300 4950 9900 4950
+Wire Wire Line
+	9900 4950 9900 4900
+$Comp
+L power:GND #PWR036
+U 1 1 5BF728A8
+P 10300 5000
+F 0 "#PWR036" H 10300 4750 50  0001 C CNN
+F 1 "GND" H 10305 4827 50  0000 C CNN
+F 2 "" H 10300 5000 50  0001 C CNN
+F 3 "" H 10300 5000 50  0001 C CNN
+	1    10300 5000
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	10300 5000 10300 4950
+Connection ~ 10300 4950
+$Comp
+L Device:C C17
+U 1 1 5BF8C2B3
+P 7200 6050
+F 0 "C17" H 7315 6096 50  0000 L CNN
+F 1 "100n" H 7315 6005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7238 5900 50  0001 C CNN
+F 3 "~" H 7200 6050 50  0001 C CNN
+F 4 "Digi-Key" H 3900 -650 50  0001 C CNN "Distrib1"
+F 5 "1276-1000-1-ND" H 3900 -650 50  0001 C CNN "Distrib1Part"
+F 6 "0.0154" H 3900 -650 50  0001 C CNN "Distrib1Price"
+	1    7200 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C18
+U 1 1 5BF8CB88
+P 7600 6050
+F 0 "C18" H 7715 6096 50  0000 L CNN
+F 1 "100n" H 7715 6005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7638 5900 50  0001 C CNN
+F 3 "~" H 7600 6050 50  0001 C CNN
+F 4 "Digi-Key" H 3900 -650 50  0001 C CNN "Distrib1"
+F 5 "1276-1000-1-ND" H 3900 -650 50  0001 C CNN "Distrib1Part"
+F 6 "0.0154" H 3900 -650 50  0001 C CNN "Distrib1Price"
+	1    7600 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C19
+U 1 1 5BF8CE6D
+P 8000 6050
+F 0 "C19" H 8115 6096 50  0000 L CNN
+F 1 "100n" H 8115 6005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8038 5900 50  0001 C CNN
+F 3 "~" H 8000 6050 50  0001 C CNN
+F 4 "Digi-Key" H 3900 -650 50  0001 C CNN "Distrib1"
+F 5 "1276-1000-1-ND" H 3900 -650 50  0001 C CNN "Distrib1Part"
+F 6 "0.0154" H 3900 -650 50  0001 C CNN "Distrib1Price"
+	1    8000 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C21
+U 1 1 5BF8D1E4
+P 8400 6050
+F 0 "C21" H 8515 6096 50  0000 L CNN
+F 1 "100n" H 8515 6005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8438 5900 50  0001 C CNN
+F 3 "~" H 8400 6050 50  0001 C CNN
+F 4 "Digi-Key" H 3900 -650 50  0001 C CNN "Distrib1"
+F 5 "1276-1000-1-ND" H 3900 -650 50  0001 C CNN "Distrib1Part"
+F 6 "0.0154" H 3900 -650 50  0001 C CNN "Distrib1Price"
+	1    8400 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR029
+U 1 1 5BF8D6FC
+P 6800 5800
+F 0 "#PWR029" H 6800 5650 50  0001 C CNN
+F 1 "+3V3" H 6815 5973 50  0000 C CNN
+F 2 "" H 6800 5800 50  0001 C CNN
+F 3 "" H 6800 5800 50  0001 C CNN
+	1    6800 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 5800 6800 5850
+Wire Wire Line
+	6800 5900 6800 5850
+Wire Wire Line
+	6800 5850 7200 5850
+Connection ~ 7200 5850
+Wire Wire Line
+	7200 5850 7200 5900
+Wire Wire Line
+	7200 5850 7600 5850
+Wire Wire Line
+	7600 5850 7600 5900
+Wire Wire Line
+	7600 5850 8000 5850
+Wire Wire Line
+	8000 5850 8000 5900
+Connection ~ 7600 5850
+Wire Wire Line
+	8000 5850 8400 5850
+Wire Wire Line
+	8400 5850 8400 5900
+Connection ~ 8000 5850
+Wire Wire Line
+	8400 6200 8400 6250
+Wire Wire Line
+	8400 6250 8000 6250
+Wire Wire Line
+	6800 6250 6800 6200
+Wire Wire Line
+	7200 6200 7200 6250
+Connection ~ 7200 6250
+Wire Wire Line
+	7200 6250 6800 6250
+Wire Wire Line
+	7600 6200 7600 6250
+Connection ~ 7600 6250
+Wire Wire Line
+	7600 6250 7200 6250
+Wire Wire Line
+	8000 6200 8000 6250
+Connection ~ 8000 6250
+Wire Wire Line
+	8000 6250 7600 6250
+$Comp
+L power:GND #PWR030
+U 1 1 5BF9D561
+P 6800 6300
+F 0 "#PWR030" H 6800 6050 50  0001 C CNN
+F 1 "GND" H 6805 6127 50  0000 C CNN
+F 2 "" H 6800 6300 50  0001 C CNN
+F 3 "" H 6800 6300 50  0001 C CNN
+	1    6800 6300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 6300 6800 6250
+NoConn ~ 9900 4050
+$Comp
+L Switch:SW_Push SW3
+U 1 1 5BFF467B
+P 1500 7250
+F 0 "SW3" V 1546 7398 50  0000 L CNN
+F 1 "Up" V 1455 7398 50  0000 L CNN
+F 2 "Button_Switch_SMD:SW_SPST_B3S-1000" H 1500 7450 50  0001 C CNN
+F 3 "" H 1500 7450 50  0001 C CNN
+F 4 "Digi-Key" H 500 1350 50  0001 C CNN "Distrib1"
+F 5 "CKN9088CT-ND" H 500 1350 50  0001 C CNN "Distrib1Part"
+F 6 "0.1457" H 500 1350 50  0001 C CNN "Distrib1Price"
+F 7 "Farnell" H 500 1350 50  0001 C CNN "Distrib2"
+F 8 "2320087" H 500 1350 50  0001 C CNN "Distrib2Part"
+F 9 "0.107" H 500 1350 50  0001 C CNN "Distrib2Price"
+	1    1500 7250
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 5BFF468D
+P 1350 7250
+F 0 "C3" V 1400 7350 50  0000 C CNN
+F 1 "100n" V 1400 7100 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1388 7100 50  0001 C CNN
+F 3 "~" H 1350 7250 50  0001 C CNN
+F 4 "Digi-Key" H 350 1200 50  0001 C CNN "Distrib1"
+F 5 "1276-1000-1-ND" H 350 1200 50  0001 C CNN "Distrib1Part"
+F 6 "0.0154" H 350 1200 50  0001 C CNN "Distrib1Price"
+	1    1350 7250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1500 7000 1500 7050
+Text Label 1350 7000 0    50   ~ 0
+BTN_UP
+$Comp
+L power:GND #PWR010
+U 1 1 5BFF4698
+P 1350 7500
+F 0 "#PWR010" H 1350 7250 50  0001 C CNN
+F 1 "GND" H 1355 7327 50  0000 C CNN
+F 2 "" H 1350 7500 50  0001 C CNN
+F 3 "" H 1350 7500 50  0001 C CNN
+	1    1350 7500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1350 7500 1350 7450
+$Comp
+L Device:C C22
+U 1 1 5C0B1075
+P 9300 6050
+F 0 "C22" H 9415 6096 50  0000 L CNN
+F 1 "100n" H 9415 6005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9338 5900 50  0001 C CNN
+F 3 "~" H 9300 6050 50  0001 C CNN
+F 4 "Digi-Key" H 4400 -650 50  0001 C CNN "Distrib1"
+F 5 "1276-1000-1-ND" H 4400 -650 50  0001 C CNN "Distrib1Part"
+F 6 "0.0154" H 4400 -650 50  0001 C CNN "Distrib1Price"
+	1    9300 6050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8900 5850 9300 5850
+Wire Wire Line
+	9300 5850 9300 5900
+Wire Wire Line
+	9300 6200 9300 6250
+Wire Wire Line
+	9300 6250 8900 6250
+Text Notes 6750 5550 0    50   ~ 0
+MCU capacitors: 100n for each VDD* + one 4.7uF per voltage
+$Comp
+L Switch:SW_Push SW4
+U 1 1 5C252B52
+P 800 7250
+F 0 "SW4" V 846 7398 50  0000 L CNN
+F 1 "Down" V 755 7398 50  0000 L CNN
+F 2 "Button_Switch_SMD:SW_SPST_B3S-1000" H 800 7450 50  0001 C CNN
+F 3 "" H 800 7450 50  0001 C CNN
+F 4 "Digi-Key" H -200 850 50  0001 C CNN "Distrib1"
+F 5 "CKN9088CT-ND" H -200 850 50  0001 C CNN "Distrib1Part"
+F 6 "0.1457" H -200 850 50  0001 C CNN "Distrib1Price"
+F 7 "Farnell" H -200 850 50  0001 C CNN "Distrib2"
+F 8 "2320087" H -200 850 50  0001 C CNN "Distrib2Part"
+F 9 "0.107" H -200 850 50  0001 C CNN "Distrib2Price"
+	1    800  7250
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:C C4
+U 1 1 5C252B5E
+P 650 7250
+F 0 "C4" V 700 7350 50  0000 C CNN
+F 1 "100n" V 700 7100 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 688 7100 50  0001 C CNN
+F 3 "~" H 650 7250 50  0001 C CNN
+F 4 "Digi-Key" H -350 700 50  0001 C CNN "Distrib1"
+F 5 "1276-1000-1-ND" H -350 700 50  0001 C CNN "Distrib1Part"
+F 6 "0.0154" H -350 700 50  0001 C CNN "Distrib1Price"
+	1    650  7250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	800  7000 800  7050
+Text Label 650  7000 0    50   ~ 0
+BTN_DOWN
+$Comp
+L power:GND #PWR011
+U 1 1 5C252B66
+P 650 7500
+F 0 "#PWR011" H 650 7250 50  0001 C CNN
+F 1 "GND" H 655 7327 50  0000 C CNN
+F 2 "" H 650 7500 50  0001 C CNN
+F 3 "" H 650 7500 50  0001 C CNN
+	1    650  7500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	650  7500 650  7450
+$Comp
+L Switch:SW_Push SW1
+U 1 1 5C25706F
+P 1500 6300
+F 0 "SW1" V 1546 6448 50  0000 L CNN
+F 1 "Left" V 1455 6448 50  0000 L CNN
+F 2 "Button_Switch_SMD:SW_SPST_B3S-1000" H 1500 6500 50  0001 C CNN
+F 3 "" H 1500 6500 50  0001 C CNN
+F 4 "Digi-Key" H 500 -600 50  0001 C CNN "Distrib1"
+F 5 "CKN9088CT-ND" H 500 -600 50  0001 C CNN "Distrib1Part"
+F 6 "0.1457" H 500 -600 50  0001 C CNN "Distrib1Price"
+F 7 "Farnell" H 500 -600 50  0001 C CNN "Distrib2"
+F 8 "2320087" H 500 -600 50  0001 C CNN "Distrib2Part"
+F 9 "0.107" H 500 -600 50  0001 C CNN "Distrib2Price"
+	1    1500 6300
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 5C25707B
+P 1350 6300
+F 0 "C1" V 1400 6400 50  0000 C CNN
+F 1 "100n" V 1400 6150 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1388 6150 50  0001 C CNN
+F 3 "~" H 1350 6300 50  0001 C CNN
+F 4 "Digi-Key" H 350 -750 50  0001 C CNN "Distrib1"
+F 5 "1276-1000-1-ND" H 350 -750 50  0001 C CNN "Distrib1Part"
+F 6 "0.0154" H 350 -750 50  0001 C CNN "Distrib1Price"
+	1    1350 6300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1500 6050 1500 6100
+$Comp
+L power:GND #PWR04
+U 1 1 5C257083
+P 1350 6550
+F 0 "#PWR04" H 1350 6300 50  0001 C CNN
+F 1 "GND" H 1355 6377 50  0000 C CNN
+F 2 "" H 1350 6550 50  0001 C CNN
+F 3 "" H 1350 6550 50  0001 C CNN
+	1    1350 6550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1350 6550 1350 6500
+$Comp
+L Switch:SW_Push SW2
+U 1 1 5C25BD90
+P 800 6300
+F 0 "SW2" V 846 6448 50  0000 L CNN
+F 1 "Right" V 755 6448 50  0000 L CNN
+F 2 "Button_Switch_SMD:SW_SPST_B3S-1000" H 800 6500 50  0001 C CNN
+F 3 "" H 800 6500 50  0001 C CNN
+F 4 "Digi-Key" H -200 -1100 50  0001 C CNN "Distrib1"
+F 5 "CKN9088CT-ND" H -200 -1100 50  0001 C CNN "Distrib1Part"
+F 6 "0.1457" H -200 -1100 50  0001 C CNN "Distrib1Price"
+F 7 "Farnell" H -200 -1100 50  0001 C CNN "Distrib2"
+F 8 " " H -200 -1100 50  0001 C CNN "Distrib2Part"
+F 9 "0.107" H -200 -1100 50  0001 C CNN "Distrib2Price"
+	1    800  6300
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 5C25BD9C
+P 650 6300
+F 0 "C2" V 700 6400 50  0000 C CNN
+F 1 "100n" V 700 6150 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 688 6150 50  0001 C CNN
+F 3 "~" H 650 6300 50  0001 C CNN
+F 4 "Digi-Key" H -350 -1250 50  0001 C CNN "Distrib1"
+F 5 "1276-1000-1-ND" H -350 -1250 50  0001 C CNN "Distrib1Part"
+F 6 "0.0154" H -350 -1250 50  0001 C CNN "Distrib1Price"
+	1    650  6300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	800  6050 800  6100
+$Comp
+L power:GND #PWR05
+U 1 1 5C25BDA4
+P 650 6550
+F 0 "#PWR05" H 650 6300 50  0001 C CNN
+F 1 "GND" H 655 6377 50  0000 C CNN
+F 2 "" H 650 6550 50  0001 C CNN
+F 3 "" H 650 6550 50  0001 C CNN
+	1    650  6550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	650  6550 650  6500
+$Comp
+L Device:R R9
+U 1 1 5C30EE71
+P 9000 3950
+F 0 "R9" V 9050 4150 50  0000 C CNN
+F 1 "22" V 9050 3750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8930 3950 50  0001 C CNN
+F 3 "~" H 9000 3950 50  0001 C CNN
+F 4 "Digi-Key" H 2650 -100 50  0001 C CNN "Distrib1"
+F 5 "CR0603-JW-220ELFCT-ND" H 2650 -100 50  0001 C CNN "Distrib1Part"
+F 6 "0.0064" H 2650 -100 50  0001 C CNN "Distrib1Price"
+F 7 "Mouser" H 2650 -100 50  0001 C CNN "Distrib2"
+F 8 "652-CR0603-JW-220ELF	" H 2650 -100 50  0001 C CNN "Distrib2Part"
+F 9 "0.006" H 2650 -100 50  0001 C CNN "Distrib2Price"
+	1    9000 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R8
+U 1 1 5C335D44
+P 9000 3850
+F 0 "R8" V 9050 4050 50  0000 C CNN
+F 1 "22" V 9050 3650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8930 3850 50  0001 C CNN
+F 3 "~" H 9000 3850 50  0001 C CNN
+F 4 "Digi-Key" H 2650 -100 50  0001 C CNN "Distrib1"
+F 5 "CR0603-JW-220ELFCT-ND" H 2650 -100 50  0001 C CNN "Distrib1Part"
+F 6 "0.0064" H 2650 -100 50  0001 C CNN "Distrib1Price"
+F 7 "Mouser" H 2650 -100 50  0001 C CNN "Distrib2"
+F 8 "652-CR0603-JW-220ELF	" H 2650 -100 50  0001 C CNN "Distrib2Part"
+F 9 "0.006" H 2650 -100 50  0001 C CNN "Distrib2Price"
+	1    9000 3850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C15
+U 1 1 5C4569DA
+P 6800 6050
+F 0 "C15" H 6915 6096 50  0000 L CNN
+F 1 "4.7u" H 6915 6005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6838 5900 50  0001 C CNN
+F 3 "~" H 6800 6050 50  0001 C CNN
+F 4 "Digi-Key" H 3900 -650 50  0001 C CNN "Distrib1"
+F 5 "1276-1259-1-ND" H 3900 -650 50  0001 C CNN "Distrib1Part"
+F 6 "0.0458" H 3900 -650 50  0001 C CNN "Distrib1Price"
+	1    6800 6050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 2500 7050 2500
+Wire Wire Line
+	7050 2500 7050 2400
+Wire Wire Line
+	6450 2600 7050 2600
+Wire Wire Line
+	7050 2600 7050 2700
+Wire Wire Line
+	7050 2700 7400 2700
+Connection ~ 7400 2700
+$Comp
+L Connector_Generic:Conn_01x11 J?
+U 1 1 5CD5355B
+P 700 4500
+AR Path="/5CCA506B/5CD5355B" Ref="J?"  Part="1" 
+AR Path="/5CD5355B" Ref="J1"  Part="1" 
+F 0 "J1" H 618 5217 50  0000 C CNN
+F 1 "LogicProbes" H 618 5126 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x11_P2.54mm_Horizontal" H 700 4500 50  0001 C CNN
+F 3 "~" H 700 4500 50  0001 C CNN
+F 4 "Digi-Key" H -10250 1800 50  0001 C CNN "Distrib1"
+F 5 "WM50013-09-ND" H -10250 1800 50  0001 C CNN "Distrib1Part"
+F 6 "0.3995" H -10250 1800 50  0001 C CNN "Distrib1Price"
+F 7 "Mouser" H -10250 1800 50  0001 C CNN "Distrib2"
+F 8 "538-22-28-8090" H -10250 1800 50  0001 C CNN "Distrib2Part"
+F 9 "0.401" H -10250 1800 50  0001 C CNN "Distrib2Price"
+	1    700  4500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CD53561
+P 1000 4900
+AR Path="/5CCA506B/5CD53561" Ref="#PWR?"  Part="1" 
+AR Path="/5CD53561" Ref="#PWR06"  Part="1" 
+F 0 "#PWR06" H 1000 4650 50  0001 C CNN
+F 1 "GND" V 1005 4772 50  0000 R CNN
+F 2 "" H 1000 4900 50  0001 C CNN
+F 3 "" H 1000 4900 50  0001 C CNN
+	1    1000 4900
+	0    -1   1    0   
+$EndComp
+Text Label 2800 4100 2    50   ~ 0
+PROBE_IN0
+Text Label 2800 4200 2    50   ~ 0
+PROBE_IN1
+Text Label 2800 4300 2    50   ~ 0
+PROBE_IN2
+Text Label 2800 4400 2    50   ~ 0
+PROBE_IN3
+Text Label 2800 4500 2    50   ~ 0
+PROBE_IN4
+Text Label 2800 4600 2    50   ~ 0
+PROBE_IN5
+Text Label 2800 4700 2    50   ~ 0
+PROBE_IN6
+Text Label 2800 4800 2    50   ~ 0
+PROBE_IN7
+$Comp
+L 74xx:74HC244 U?
+U 1 1 5CD53570
+P 3300 4600
+AR Path="/5CCA506B/5CD53570" Ref="U?"  Part="1" 
+AR Path="/5CD53570" Ref="U1"  Part="1" 
+F 0 "U1" H 3550 5250 50  0000 C CNN
+F 1 "74LCX244MTC" H 3600 3950 50  0000 C CNN
+F 2 "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" H 3300 4600 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/74HC_HCT244.pdf" H 3300 4600 50  0001 C CNN
+F 4 "Digi-Key" H -6000 1800 50  0001 C CNN "Distrib1"
+F 5 "74LCX244MTCXCT-ND" H -6000 1800 50  0001 C CNN "Distrib1Part"
+F 6 "0.3908" H -6000 1800 50  0001 C CNN "Distrib1Price"
+F 7 "Mouser" H -6000 1800 50  0001 C CNN "Distrib2"
+F 8 "512-74LCX244MTC" H -6000 1800 50  0001 C CNN "Distrib2Part"
+F 9 "0.274" H -6000 1800 50  0001 C CNN "Distrib2Price"
+	1    3300 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CD5357E
+P 2600 5200
+AR Path="/5CCA506B/5CD5357E" Ref="#PWR?"  Part="1" 
+AR Path="/5CD5357E" Ref="#PWR07"  Part="1" 
+F 0 "#PWR07" H 2600 4950 50  0001 C CNN
+F 1 "GND" H 2605 5027 50  0000 C CNN
+F 2 "" H 2600 5200 50  0001 C CNN
+F 3 "" H 2600 5200 50  0001 C CNN
+	1    2600 5200
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 5000 2600 5000
+Wire Wire Line
+	2600 5000 2600 5100
+Wire Wire Line
+	2800 5100 2600 5100
+Connection ~ 2600 5100
+Wire Wire Line
+	2600 5100 2600 5200
+Text Label 4150 4100 2    50   ~ 0
+PROBE0
+Text Label 4150 4200 2    50   ~ 0
+PROBE1
+Text Label 4150 4300 2    50   ~ 0
+PROBE2
+Text Label 4150 4400 2    50   ~ 0
+PROBE3
+Text Label 4150 4500 2    50   ~ 0
+PROBE4
+Text Label 4150 4600 2    50   ~ 0
+PROBE5
+Text Label 4150 4700 2    50   ~ 0
+PROBE6
+Text Label 4150 4800 2    50   ~ 0
+PROBE7
+$Comp
+L power:GND #PWR?
+U 1 1 5CD53599
+P 3300 5450
+AR Path="/5CCA506B/5CD53599" Ref="#PWR?"  Part="1" 
+AR Path="/5CD53599" Ref="#PWR015"  Part="1" 
+F 0 "#PWR015" H 3300 5200 50  0001 C CNN
+F 1 "GND" H 3305 5277 50  0000 C CNN
+F 2 "" H 3300 5450 50  0001 C CNN
+F 3 "" H 3300 5450 50  0001 C CNN
+	1    3300 5450
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 5400 3300 5450
+$Comp
+L Device:C C?
+U 1 1 5CD535A0
+P 2900 3700
+AR Path="/5CCA506B/5CD535A0" Ref="C?"  Part="1" 
+AR Path="/5CD535A0" Ref="C5"  Part="1" 
+F 0 "C5" V 2800 3800 50  0000 C CNN
+F 1 "100n" V 2800 3550 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2938 3550 50  0001 C CNN
+F 3 "~" H 2900 3700 50  0001 C CNN
+F 4 "Digi-Key" H -6600 1800 50  0001 C CNN "Distrib1"
+F 5 "1276-1000-1-ND" H -6600 1800 50  0001 C CNN "Distrib1Part"
+F 6 "0.0154" H -6600 1800 50  0001 C CNN "Distrib1Price"
+	1    2900 3700
+	0    -1   1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CD535A6
+P 2750 3750
+AR Path="/5CCA506B/5CD535A6" Ref="#PWR?"  Part="1" 
+AR Path="/5CD535A6" Ref="#PWR013"  Part="1" 
+F 0 "#PWR013" H 2750 3500 50  0001 C CNN
+F 1 "GND" H 2755 3577 50  0000 C CNN
+F 2 "" H 2750 3750 50  0001 C CNN
+F 3 "" H 2750 3750 50  0001 C CNN
+	1    2750 3750
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 3700 2750 3750
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5CD535AD
+P 3300 3650
+AR Path="/5CCA506B/5CD535AD" Ref="#PWR?"  Part="1" 
+AR Path="/5CD535AD" Ref="#PWR014"  Part="1" 
+F 0 "#PWR014" H 3300 3500 50  0001 C CNN
+F 1 "+3V3" H 3315 3823 50  0000 C CNN
+F 2 "" H 3300 3650 50  0001 C CNN
+F 3 "" H 3300 3650 50  0001 C CNN
+	1    3300 3650
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 3650 3300 3700
+Wire Wire Line
+	3050 3700 3300 3700
+Connection ~ 3300 3700
+Wire Wire Line
+	3300 3700 3300 3800
+Wire Wire Line
+	9150 3950 9900 3950
+Wire Wire Line
+	9800 3450 9800 3650
+Wire Wire Line
+	9800 3650 9900 3650
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5C0982A7
+P 2550 7650
+F 0 "H1" H 2650 7696 50  0000 L CNN
+F 1 "Clip" H 2650 7605 50  0000 L CNN
+F 2 "kicon_badge:ClipHole" H 2550 7650 50  0001 C CNN
+F 3 "~" H 2550 7650 50  0001 C CNN
+	1    2550 7650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 7450 1350 7450
+Connection ~ 1350 7450
+Wire Wire Line
+	1350 7450 1350 7400
+Wire Wire Line
+	1500 7000 1350 7000
+Wire Wire Line
+	1350 7000 1350 7100
+Wire Wire Line
+	800  7450 650  7450
+Connection ~ 650  7450
+Wire Wire Line
+	650  7450 650  7400
+Wire Wire Line
+	650  7100 650  7000
+Wire Wire Line
+	800  7000 650  7000
+Wire Wire Line
+	1350 6150 1350 6050
+Wire Wire Line
+	1500 6050 1350 6050
+Wire Wire Line
+	1350 6500 1500 6500
+Connection ~ 1350 6500
+Wire Wire Line
+	1350 6500 1350 6450
+Wire Wire Line
+	650  6500 800  6500
+Connection ~ 650  6500
+Wire Wire Line
+	650  6500 650  6450
+Wire Wire Line
+	650  6150 650  6050
+Wire Wire Line
+	800  6050 650  6050
+Text Notes 650  5850 0    50   ~ 0
+Buttons use internal\npull-ups of ATSAM
+Connection ~ 5650 6600
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5C0B19FA
+P 9550 1000
+AR Path="/5CCA506B/5C0B19FA" Ref="#PWR?"  Part="1" 
+AR Path="/5C0B19FA" Ref="#PWR033"  Part="1" 
+F 0 "#PWR033" H 9550 850 50  0001 C CNN
+F 1 "+3V3" H 9565 1173 50  0000 C CNN
+F 2 "" H 9550 1000 50  0001 C CNN
+F 3 "" H 9550 1000 50  0001 C CNN
+	1    9550 1000
+	1    0    0    -1  
+$EndComp
+NoConn ~ 9450 1500
+NoConn ~ 8850 2700
+NoConn ~ 8850 2800
+$Comp
+L power:GND #PWR034
+U 1 1 5C0EA73C
+P 9550 3150
+F 0 "#PWR034" H 9550 2900 50  0001 C CNN
+F 1 "GND" H 9550 3000 50  0000 C CNN
+F 2 "" H 9550 3150 50  0001 C CNN
+F 3 "" H 9550 3150 50  0001 C CNN
+	1    9550 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 2400 6950 2400
+Wire Wire Line
+	6950 2400 6950 2200
+Wire Wire Line
+	6950 2200 8850 2200
+Wire Wire Line
+	6450 2700 6950 2700
+Wire Wire Line
+	6950 2700 6950 3950
+Wire Wire Line
+	6950 3950 8850 3950
+Wire Wire Line
+	6450 2800 7050 2800
+Wire Wire Line
+	7050 2800 7050 3850
+Wire Wire Line
+	7050 3850 8850 3850
+Wire Wire Line
+	8850 1800 8150 1800
+Wire Wire Line
+	8150 1800 8150 3600
+NoConn ~ 6450 3700
+Wire Wire Line
+	9550 3150 9550 3100
+NoConn ~ 8850 1900
+NoConn ~ 8850 2100
+Wire Wire Line
+	6450 2300 8850 2300
+Wire Wire Line
+	6450 2100 8350 2100
+Wire Wire Line
+	8350 2100 8350 2500
+Wire Wire Line
+	8350 2500 8850 2500
+Wire Wire Line
+	6450 2200 6750 2200
+Wire Wire Line
+	8450 2000 8450 2400
+Wire Wire Line
+	8450 2400 8850 2400
+Wire Wire Line
+	3800 4400 4450 4400
+Wire Wire Line
+	3800 4300 4450 4300
+Wire Wire Line
+	3800 4200 4450 4200
+Wire Wire Line
+	3800 4100 4450 4100
+Wire Wire Line
+	3800 4500 4450 4500
+Wire Wire Line
+	3800 4600 4450 4600
+Wire Wire Line
+	3800 4700 4450 4700
+Wire Wire Line
+	3800 4800 4450 4800
+$Comp
+L Device:R R3
+U 1 1 5C3D7A1E
+P 3800 3350
+F 0 "R3" H 3870 3396 50  0000 L CNN
+F 1 "22" H 3870 3305 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3730 3350 50  0001 C CNN
+F 3 "~" H 3800 3350 50  0001 C CNN
+F 4 "Digi-Key" H -2550 -600 50  0001 C CNN "Distrib1"
+F 5 "CR0603-JW-220ELFCT-ND" H -2550 -600 50  0001 C CNN "Distrib1Part"
+F 6 "0.0064" H -2550 -600 50  0001 C CNN "Distrib1Price"
+F 7 "Mouser" H -2550 -600 50  0001 C CNN "Distrib2"
+F 8 "652-CR0603-JW-220ELF	" H -2550 -600 50  0001 C CNN "Distrib2Part"
+F 9 "0.006" H -2550 -600 50  0001 C CNN "Distrib2Price"
+	1    3800 3350
+	1    0    0    -1  
+$EndComp
+Text Label 3850 4000 0    50   ~ 0
+PIODCCLK
+$Comp
+L power:GND #PWR020
+U 1 1 5C4841FC
+P 5250 5100
+F 0 "#PWR020" H 5250 4850 50  0001 C CNN
+F 1 "GND" H 5255 4927 50  0000 C CNN
+F 2 "" H 5250 5100 50  0001 C CNN
+F 3 "" H 5250 5100 50  0001 C CNN
+	1    5250 5100
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 5000 5250 5050
+Wire Wire Line
+	5250 5050 5350 5050
+Connection ~ 5250 5050
+Wire Wire Line
+	5250 5050 5250 5100
+Wire Wire Line
+	5550 5000 5550 5050
+Wire Wire Line
+	5450 5000 5450 5050
+Wire Wire Line
+	5450 5050 5550 5050
+$Comp
+L Device:C C23
+U 1 1 5C0C526A
+P 9700 6050
+F 0 "C23" H 9815 6096 50  0000 L CNN
+F 1 "100n" H 9815 6005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9738 5900 50  0001 C CNN
+F 3 "~" H 9700 6050 50  0001 C CNN
+F 4 "Digi-Key" H 6000 -650 50  0001 C CNN "Distrib1"
+F 5 "1276-1000-1-ND" H 6000 -650 50  0001 C CNN "Distrib1Part"
+F 6 "0.0154" H 6000 -650 50  0001 C CNN "Distrib1Price"
+	1    9700 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C24
+U 1 1 5C0C5273
+P 10100 6050
+F 0 "C24" H 10215 6096 50  0000 L CNN
+F 1 "100n" H 10215 6005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10138 5900 50  0001 C CNN
+F 3 "~" H 10100 6050 50  0001 C CNN
+F 4 "Digi-Key" H 6000 -650 50  0001 C CNN "Distrib1"
+F 5 "1276-1000-1-ND" H 6000 -650 50  0001 C CNN "Distrib1Part"
+F 6 "0.0154" H 6000 -650 50  0001 C CNN "Distrib1Price"
+	1    10100 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C26
+U 1 1 5C0C527C
+P 10500 6050
+F 0 "C26" H 10615 6096 50  0000 L CNN
+F 1 "100n" H 10615 6005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10538 5900 50  0001 C CNN
+F 3 "~" H 10500 6050 50  0001 C CNN
+F 4 "Digi-Key" H 6000 -650 50  0001 C CNN "Distrib1"
+F 5 "1276-1000-1-ND" H 6000 -650 50  0001 C CNN "Distrib1Part"
+F 6 "0.0154" H 6000 -650 50  0001 C CNN "Distrib1Price"
+	1    10500 6050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9300 5850 9700 5850
+Wire Wire Line
+	9700 5850 9700 5900
+Wire Wire Line
+	9700 5850 10100 5850
+Wire Wire Line
+	10100 5850 10100 5900
+Connection ~ 9700 5850
+Wire Wire Line
+	10100 5850 10500 5850
+Wire Wire Line
+	10500 5850 10500 5900
+Connection ~ 10100 5850
+Wire Wire Line
+	10500 6200 10500 6250
+Wire Wire Line
+	10500 6250 10100 6250
+Wire Wire Line
+	9700 6200 9700 6250
+Connection ~ 9700 6250
+Wire Wire Line
+	9700 6250 9300 6250
+Wire Wire Line
+	10100 6200 10100 6250
+Connection ~ 10100 6250
+Wire Wire Line
+	10100 6250 9700 6250
+$Comp
+L Device:C C27
+U 1 1 5C0C5295
+P 10900 6050
+F 0 "C27" H 11015 6096 50  0000 L CNN
+F 1 "100n" H 11015 6005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10938 5900 50  0001 C CNN
+F 3 "~" H 10900 6050 50  0001 C CNN
+F 4 "Digi-Key" H 6000 -650 50  0001 C CNN "Distrib1"
+F 5 "1276-1000-1-ND" H 6000 -650 50  0001 C CNN "Distrib1Part"
+F 6 "0.0154" H 6000 -650 50  0001 C CNN "Distrib1Price"
+	1    10900 6050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10500 5850 10900 5850
+Wire Wire Line
+	10900 5850 10900 5900
+Connection ~ 10500 5850
+Wire Wire Line
+	10900 6200 10900 6250
+Wire Wire Line
+	10900 6250 10500 6250
+Connection ~ 10500 6250
+Connection ~ 9300 5850
+Connection ~ 9300 6250
+Text Label 6450 3600 0    50   ~ 0
+NRST
+$Comp
+L kicon_badge:OLED_SSD1306 U4
+U 1 1 5C20640D
+P 3150 1100
+F 0 "U4" H 3400 900 50  0000 R CNN
+F 1 "OLED_SSD1306" H 3400 1400 50  0000 R CNN
+F 2 "kicon_badge:OLED_SSD1306" H 3150 1250 50  0001 C CNN
+F 3 "" H 3150 1250 50  0001 C CNN
+F 4 "Digi-Key" H 0   0   50  0001 C CNN "Distrib1"
+F 5 "S7037-ND" H 0   0   50  0001 C CNN "Distrib1Part"
+F 6 "0.3353" H 0   0   50  0001 C CNN "Distrib1Price"
+	1    3150 1100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C C25
+U 1 1 5C0C7B28
+P 3900 1200
+F 0 "C25" H 4015 1246 50  0000 L CNN
+F 1 "100n" H 4015 1155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3938 1050 50  0001 C CNN
+F 3 "~" H 3900 1200 50  0001 C CNN
+F 4 "Digi-Key" H 200 -5500 50  0001 C CNN "Distrib1"
+F 5 "1276-1000-1-ND" H 200 -5500 50  0001 C CNN "Distrib1Part"
+F 6 "0.0154" H 200 -5500 50  0001 C CNN "Distrib1Price"
+	1    3900 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 1000 3900 1000
+Wire Wire Line
+	3900 1000 3900 1050
+$Comp
+L power:GND #PWR038
+U 1 1 5C10E28F
+P 3900 1400
+F 0 "#PWR038" H 3900 1150 50  0001 C CNN
+F 1 "GND" H 3900 1250 50  0000 C CNN
+F 2 "" H 3900 1400 50  0001 C CNN
+F 3 "" H 3900 1400 50  0001 C CNN
+	1    3900 1400
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 1350 3900 1400
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5C11CDB6
+P 3900 950
+AR Path="/5CCA506B/5C11CDB6" Ref="#PWR?"  Part="1" 
+AR Path="/5C11CDB6" Ref="#PWR037"  Part="1" 
+F 0 "#PWR037" H 3900 800 50  0001 C CNN
+F 1 "+3V3" H 3915 1123 50  0000 C CNN
+F 2 "" H 3900 950 50  0001 C CNN
+F 3 "" H 3900 950 50  0001 C CNN
+	1    3900 950 
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 950  3900 1000
+Connection ~ 3900 1000
+$Comp
+L power:GND #PWR039
+U 1 1 5C12BA36
+P 3400 900
+F 0 "#PWR039" H 3400 650 50  0001 C CNN
+F 1 "GND" V 3405 772 50  0000 R CNN
+F 2 "" H 3400 900 50  0001 C CNN
+F 3 "" H 3400 900 50  0001 C CNN
+	1    3400 900 
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	3400 900  3250 900 
+Text Notes 2900 700  0    50   ~ 0
+0.96" 128x64 display\n(variant: I2C and GND at pin 1)
+Text Label 4450 2600 2    50   ~ 0
+UART_RX
+Wire Wire Line
+	3800 2300 4450 2300
+Wire Wire Line
+	3800 2300 3800 3200
+Text Label 4450 2300 2    50   ~ 0
+PCK0
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5C37E053
+P 5950 900
+AR Path="/5CCA506B/5C37E053" Ref="#PWR?"  Part="1" 
+AR Path="/5C37E053" Ref="#PWR019"  Part="1" 
+F 0 "#PWR019" H 5950 750 50  0001 C CNN
+F 1 "+3V3" H 5965 1073 50  0000 C CNN
+F 2 "" H 5950 900 50  0001 C CNN
+F 3 "" H 5950 900 50  0001 C CNN
+	1    5950 900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 1100 4950 1000
+Wire Wire Line
+	4950 1000 5050 1000
+Wire Wire Line
+	5050 1000 5050 1100
+Wire Wire Line
+	5950 1000 5950 900 
+Wire Wire Line
+	5050 1000 5150 1000
+Wire Wire Line
+	5150 1000 5150 1100
+Connection ~ 5050 1000
+Connection ~ 5150 1000
+Wire Wire Line
+	5450 1000 5450 1100
+Wire Wire Line
+	5550 1000 5550 1100
+Wire Wire Line
+	5550 1000 5750 1000
+Wire Wire Line
+	5750 1000 5750 1100
+Wire Wire Line
+	5750 1000 5850 1000
+Wire Wire Line
+	5850 1000 5850 1100
+Connection ~ 5750 1000
+Wire Wire Line
+	5850 1000 5950 1000
+Wire Wire Line
+	5950 1000 5950 1100
+Connection ~ 5850 1000
+$Comp
+L Switch:SW_Push SW5
+U 1 1 5C180EC3
+P 8400 4450
+F 0 "SW5" V 8446 4598 50  0000 L CNN
+F 1 "Reset" V 8355 4598 50  0000 L CNN
+F 2 "Button_Switch_SMD:SW_SPST_B3S-1000" H 8400 4650 50  0001 C CNN
+F 3 "" H 8400 4650 50  0001 C CNN
+F 4 "Digi-Key" H 7400 -1450 50  0001 C CNN "Distrib1"
+F 5 "CKN9088CT-ND" H 7400 -1450 50  0001 C CNN "Distrib1Part"
+F 6 "0.1457" H 7400 -1450 50  0001 C CNN "Distrib1Price"
+F 7 "Farnell" H 7400 -1450 50  0001 C CNN "Distrib2"
+F 8 "2320087" H 7400 -1450 50  0001 C CNN "Distrib2Part"
+F 9 "0.107" H 7400 -1450 50  0001 C CNN "Distrib2Price"
+	1    8400 4450
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:C C16
+U 1 1 5C180ECC
+P 8150 4450
+F 0 "C16" H 8265 4404 50  0000 L CNN
+F 1 "100n" H 8265 4495 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8188 4300 50  0001 C CNN
+F 3 "~" H 8150 4450 50  0001 C CNN
+F 4 "Digi-Key" H 7150 -1600 50  0001 C CNN "Distrib1"
+F 5 "1276-1000-1-ND" H 7150 -1600 50  0001 C CNN "Distrib1Part"
+F 6 "0.0154" H 7150 -1600 50  0001 C CNN "Distrib1Price"
+	1    8150 4450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8400 4200 8400 4250
+$Comp
+L power:GND #PWR027
+U 1 1 5C180ED4
+P 8150 4750
+F 0 "#PWR027" H 8150 4500 50  0001 C CNN
+F 1 "GND" H 8155 4577 50  0000 C CNN
+F 2 "" H 8150 4750 50  0001 C CNN
+F 3 "" H 8150 4750 50  0001 C CNN
+	1    8150 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8150 4750 8150 4700
+Wire Wire Line
+	8400 4700 8150 4700
+Connection ~ 8150 4700
+Wire Wire Line
+	8400 4200 8150 4200
+Wire Wire Line
+	8150 4200 8150 4300
+$Comp
+L Device:C C11
+U 1 1 5C1F992F
+P 6850 4400
+F 0 "C11" H 6965 4446 50  0000 L CNN
+F 1 "100n" H 6965 4355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6888 4250 50  0001 C CNN
+F 3 "~" H 6850 4400 50  0001 C CNN
+F 4 "Digi-Key" H 3550 -2300 50  0001 C CNN "Distrib1"
+F 5 "1276-1000-1-ND" H 3550 -2300 50  0001 C CNN "Distrib1Part"
+F 6 "0.0154" H 3550 -2300 50  0001 C CNN "Distrib1Price"
+	1    6850 4400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR022
+U 1 1 5C1F9935
+P 6850 4150
+F 0 "#PWR022" H 6850 4000 50  0001 C CNN
+F 1 "+3V3" H 6865 4323 50  0000 C CNN
+F 2 "" H 6850 4150 50  0001 C CNN
+F 3 "" H 6850 4150 50  0001 C CNN
+	1    6850 4150
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6850 4150 6850 4200
+Wire Wire Line
+	7250 4250 7250 4200
+Connection ~ 6850 4200
+Wire Wire Line
+	6850 4200 6850 4250
+Wire Wire Line
+	6850 4200 6450 4200
+Wire Wire Line
+	7250 4600 7250 4550
+Wire Wire Line
+	6850 4550 6850 4600
+Connection ~ 6850 4600
+Wire Wire Line
+	6850 4600 7250 4600
+Wire Wire Line
+	6850 4700 6850 4600
+$Comp
+L Device:C C12
+U 1 1 5C1F994A
+P 7250 4400
+F 0 "C12" H 7365 4446 50  0000 L CNN
+F 1 "4.7u" H 7365 4355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7288 4250 50  0001 C CNN
+F 3 "~" H 7250 4400 50  0001 C CNN
+F 4 "Digi-Key" H 4350 -2300 50  0001 C CNN "Distrib1"
+F 5 "1276-1259-1-ND" H 4350 -2300 50  0001 C CNN "Distrib1Part"
+F 6 "0.0458" H 4350 -2300 50  0001 C CNN "Distrib1Price"
+	1    7250 4400
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 4200 6450 3900
+$Comp
+L power:GND #PWR023
+U 1 1 5C274E44
+P 6850 4700
+F 0 "#PWR023" H 6850 4450 50  0001 C CNN
+F 1 "GND" H 6855 4527 50  0000 C CNN
+F 2 "" H 6850 4700 50  0001 C CNN
+F 3 "" H 6850 4700 50  0001 C CNN
+	1    6850 4700
+	1    0    0    -1  
+$EndComp
+Connection ~ 5950 1000
+Wire Wire Line
+	5150 1000 5250 1000
+Wire Wire Line
+	5250 1100 5250 1000
+Connection ~ 5250 1000
+Wire Wire Line
+	5250 1000 5450 1000
+$Comp
+L power:+1V2 #PWR0101
+U 1 1 5C2C7F91
+P 4950 900
+F 0 "#PWR0101" H 4950 750 50  0001 C CNN
+F 1 "+1V2" H 4965 1073 50  0000 C CNN
+F 2 "" H 4950 900 50  0001 C CNN
+F 3 "" H 4950 900 50  0001 C CNN
+	1    4950 900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 900  4950 1000
+Connection ~ 4950 1000
+Text Notes 5000 950  0    50   ~ 0
+VDDOUT generates 1V2
+Connection ~ 6800 5850
+Connection ~ 6800 6250
+$Comp
+L Device:C C28
+U 1 1 5C34277A
+P 8900 6050
+F 0 "C28" H 9015 6096 50  0000 L CNN
+F 1 "4.7u" H 9015 6005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8938 5900 50  0001 C CNN
+F 3 "~" H 8900 6050 50  0001 C CNN
+F 4 "Digi-Key" H 6000 -650 50  0001 C CNN "Distrib1"
+F 5 "1276-1259-1-ND" H 6000 -650 50  0001 C CNN "Distrib1Part"
+F 6 "0.0458" H 6000 -650 50  0001 C CNN "Distrib1Price"
+	1    8900 6050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8900 6200 8900 6250
+Wire Wire Line
+	8900 5900 8900 5850
+$Comp
+L power:+1V2 #PWR0102
+U 1 1 5C36AE49
+P 8900 5800
+F 0 "#PWR0102" H 8900 5650 50  0001 C CNN
+F 1 "+1V2" H 8915 5973 50  0000 C CNN
+F 2 "" H 8900 5800 50  0001 C CNN
+F 3 "" H 8900 5800 50  0001 C CNN
+	1    8900 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8900 5800 8900 5850
+Connection ~ 8900 5850
+$Comp
+L power:GND #PWR0103
+U 1 1 5C3802FE
+P 8900 6300
+F 0 "#PWR0103" H 8900 6050 50  0001 C CNN
+F 1 "GND" H 8905 6127 50  0000 C CNN
+F 2 "" H 8900 6300 50  0001 C CNN
+F 3 "" H 8900 6300 50  0001 C CNN
+	1    8900 6300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8900 6300 8900 6250
+Connection ~ 8900 6250
+Wire Wire Line
+	5350 5000 5350 5050
+Wire Wire Line
+	5350 5050 5450 5050
+Connection ~ 5350 5050
+Connection ~ 5450 5050
+Text Label 7150 3850 0    50   ~ 0
+USB_D+
+Text Label 7150 3950 0    50   ~ 0
+USB_D-
+Wire Wire Line
+	4450 4000 3800 4000
+Wire Wire Line
+	3800 4000 3800 3500
+Wire Wire Line
+	6750 2000 8450 2000
+Wire Wire Line
+	6750 2200 6750 2000
+Text Label 4450 2700 2    50   ~ 0
+UART_TX
+Text Label 6450 2100 0    50   ~ 0
+TDI
+Text Label 6450 2200 0    50   ~ 0
+TDO
+Text Label 6450 2300 0    50   ~ 0
+TMS
+Text Label 6450 2400 0    50   ~ 0
+TCK
+Text Label 6450 1700 0    50   ~ 0
+BTN_LEFT
+Text Label 6450 1800 0    50   ~ 0
+BTN_RIGHT
+Text Label 4450 1800 2    50   ~ 0
+BTN_UP
+Text Label 4450 1700 2    50   ~ 0
+BTN_DOWN
+$Comp
+L Connector_Generic:Conn_02x07_Odd_Even J2
+U 1 1 5C496839
+P 1600 2100
+F 0 "J2" H 1650 2617 50  0000 C CNN
+F 1 "Ports" H 1650 2526 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x07_P2.54mm_Vertical" H 1600 2100 50  0001 C CNN
+F 3 "~" H 1600 2100 50  0001 C CNN
+F 4 "Digi-Key" H 0   0   50  0001 C CNN "Distrib1"
+F 5 "S2012EC-07-ND" H 0   0   50  0001 C CNN "Distrib1Part"
+F 6 "0.2043" H 0   0   50  0001 C CNN "Distrib1Price"
+	1    1600 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5C4BEE05
+P 2000 1700
+AR Path="/5CCA506B/5C4BEE05" Ref="#PWR?"  Part="1" 
+AR Path="/5C4BEE05" Ref="#PWR0104"  Part="1" 
+F 0 "#PWR0104" H 2000 1550 50  0001 C CNN
+F 1 "+3V3" H 2015 1873 50  0000 C CNN
+F 2 "" H 2000 1700 50  0001 C CNN
+F 3 "" H 2000 1700 50  0001 C CNN
+	1    2000 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 1700 2000 1800
+Wire Wire Line
+	2000 1800 1900 1800
+$Comp
+L power:GND #PWR?
+U 1 1 5C4D3035
+P 1300 2500
+AR Path="/5CCA506B/5C4D3035" Ref="#PWR?"  Part="1" 
+AR Path="/5C4D3035" Ref="#PWR0105"  Part="1" 
+F 0 "#PWR0105" H 1300 2250 50  0001 C CNN
+F 1 "GND" H 1305 2327 50  0000 C CNN
+F 2 "" H 1300 2500 50  0001 C CNN
+F 3 "" H 1300 2500 50  0001 C CNN
+	1    1300 2500
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 2400 1300 2400
+Wire Wire Line
+	1300 2400 1300 2500
+Text Label 6450 3000 0    50   ~ 0
+DAC0
+Text Label 6450 3100 0    50   ~ 0
+DAC1
+Text Label 4450 3700 2    50   ~ 0
+ADC0
+Text Label 4450 3900 2    50   ~ 0
+ADC1
+Text Label 4450 2900 2    50   ~ 0
+MISO
+Text Label 4450 3000 2    50   ~ 0
+MOSI
+Text Label 4450 3100 2    50   ~ 0
+SCK
+$Comp
+L power:GND #PWR?
+U 1 1 5C59D8CC
+P 2000 2500
+AR Path="/5CCA506B/5C59D8CC" Ref="#PWR?"  Part="1" 
+AR Path="/5C59D8CC" Ref="#PWR0106"  Part="1" 
+F 0 "#PWR0106" H 2000 2250 50  0001 C CNN
+F 1 "GND" H 2005 2327 50  0000 C CNN
+F 2 "" H 2000 2500 50  0001 C CNN
+F 3 "" H 2000 2500 50  0001 C CNN
+	1    2000 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 2400 2000 2400
+Wire Wire Line
+	2000 2400 2000 2500
+Text Label 4450 2100 2    50   ~ 0
+SCL
+Text Label 4450 2000 2    50   ~ 0
+SDA
+$Comp
+L kicon_badge:ATSAM4SD16BA-MU U3
+U 1 1 5C05BF20
+P 5450 3000
+F 0 "U3" H 4600 4850 50  0000 C CNN
+F 1 "ATSAM4SD16BA-MU" H 5700 1050 50  0000 L CNN
+F 2 "Package_DFN_QFN:QFN-64-1EP_9x9mm_P0.5mm_EP7.25x7.25mm" H 5550 300 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-11100-32-bit%20Cortex-M4-Microcontroller-SAM4S_Datasheet.pdf" H 5550 300 50  0001 C CNN
+F 4 "Digi-Key" H 2700 500 50  0001 C CNN "Distrib1"
+F 5 "1611-ATSAM4SD16BA-MURCT-ND" H 2700 500 50  0001 C CNN "Distrib1Part"
+F 6 "2.62" H 2700 500 50  0001 C CNN "Distrib1Price"
+	1    5450 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R7
+U 1 1 5C2F2686
+P 9550 1250
+F 0 "R7" H 9620 1296 50  0000 L CNN
+F 1 "22" H 9620 1205 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9480 1250 50  0001 C CNN
+F 3 "~" H 9550 1250 50  0001 C CNN
+F 4 "Digi-Key" H 3200 -2700 50  0001 C CNN "Distrib1"
+F 5 "CR0603-JW-220ELFCT-ND" H 3200 -2700 50  0001 C CNN "Distrib1Part"
+F 6 "0.0064" H 3200 -2700 50  0001 C CNN "Distrib1Price"
+F 7 "Mouser" H 3200 -2700 50  0001 C CNN "Distrib2"
+F 8 "652-CR0603-JW-220ELF	" H 3200 -2700 50  0001 C CNN "Distrib2Part"
+F 9 "0.006" H 3200 -2700 50  0001 C CNN "Distrib2Price"
+	1    9550 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9550 1400 9550 1500
+Wire Wire Line
+	9550 1000 9550 1100
+NoConn ~ 6450 3500
+Connection ~ 8150 4200
+Wire Wire Line
+	7250 4200 6850 4200
+Wire Wire Line
+	8150 4200 8150 3600
+Wire Wire Line
+	8150 4600 8150 4700
+Wire Wire Line
+	8400 4700 8400 4650
+NoConn ~ 4450 3800
+NoConn ~ 4450 3500
+NoConn ~ 4450 3400
+NoConn ~ 4450 3300
+NoConn ~ 4450 3200
+NoConn ~ 4450 2800
+NoConn ~ 4450 2200
+NoConn ~ 4450 1900
+NoConn ~ 4450 3600
+NoConn ~ 6450 1900
+NoConn ~ 6450 2000
+Connection ~ 8150 3600
+Wire Wire Line
+	6450 3600 8150 3600
+Text Notes 5700 5200 0    50   ~ 0
+pin-to-pin compatible with other\nfamilies: SAM3N, SAM3S, SAM4S, SAM7S
+Text Notes 0    -100 0    50   ~ 0
+TODO: fix LCD (outline, mounting holes)
+Text Notes 0    0    0    50   ~ 0
+TODO: do not mount capacitors for push buttons? ATSAMs have deglitchers 
+Wire Wire Line
+	4450 2000 3250 2000
+Wire Wire Line
+	3250 1100 3350 1100
+Wire Wire Line
+	3350 2100 4450 2100
+Wire Wire Line
+	3350 1100 3350 2100
+Wire Wire Line
+	3250 1200 3250 2000
+Text Notes 2200 1950 0    50   ~ 0
+SCL and SDA have\ninternal pull-ups
+Text Label 900  4100 0    50   ~ 0
+PROBE_IN0
+Text Label 900  4200 0    50   ~ 0
+PROBE_IN1
+Text Label 900  4300 0    50   ~ 0
+PROBE_IN2
+Text Label 900  4400 0    50   ~ 0
+PROBE_IN3
+Text Label 900  4800 0    50   ~ 0
+PROBE_IN4
+Text Label 900  4700 0    50   ~ 0
+PROBE_IN5
+Text Label 900  4600 0    50   ~ 0
+PROBE_IN6
+Text Label 900  4500 0    50   ~ 0
+PROBE_IN7
+Entry Wire Line
+	1400 4800 1500 4700
+Entry Wire Line
+	1400 4700 1500 4600
+Entry Wire Line
+	1400 4600 1500 4500
+Entry Wire Line
+	1400 4500 1500 4400
+Entry Wire Line
+	1400 4400 1500 4300
+Entry Wire Line
+	1400 4300 1500 4200
+Entry Wire Line
+	1400 4200 1500 4100
+Entry Wire Line
+	1400 4100 1500 4000
+Entry Wire Line
+	2300 4800 2200 4700
+Entry Wire Line
+	2300 4700 2200 4600
+Entry Wire Line
+	2300 4600 2200 4500
+Entry Wire Line
+	2300 4500 2200 4400
+Entry Wire Line
+	2300 4400 2200 4300
+Entry Wire Line
+	2300 4300 2200 4200
+Entry Wire Line
+	2300 4200 2200 4100
+Entry Wire Line
+	2300 4100 2200 4000
+Wire Bus Line
+	1500 4000 2200 4000
+Wire Wire Line
+	2800 4100 2300 4100
+Wire Wire Line
+	2300 4200 2800 4200
+Wire Wire Line
+	2800 4300 2300 4300
+Wire Wire Line
+	2300 4400 2800 4400
+Wire Wire Line
+	2800 4500 2300 4500
+Wire Wire Line
+	2300 4600 2800 4600
+Wire Wire Line
+	2800 4700 2300 4700
+Wire Wire Line
+	2300 4800 2800 4800
+Wire Wire Line
+	900  4100 1400 4100
+Wire Wire Line
+	1400 4200 900  4200
+Wire Wire Line
+	900  4300 1400 4300
+Wire Wire Line
+	1400 4400 900  4400
+Wire Wire Line
+	900  4500 1400 4500
+Wire Wire Line
+	1400 4600 900  4600
+Wire Wire Line
+	900  4700 1400 4700
+Wire Wire Line
+	1400 4800 900  4800
+Text Label 1550 4000 0    50   ~ 0
+PROBE_IN[0..7]
+Wire Wire Line
+	4450 3900 3550 3900
+Wire Wire Line
+	3550 3900 3550 3300
+Wire Wire Line
+	3550 3300 600  3300
+Wire Wire Line
+	600  3300 600  1800
+Wire Wire Line
+	600  1800 1400 1800
+Text Label 1350 6050 0    50   ~ 0
+BTN_LEFT
+Text Label 650  6050 0    50   ~ 0
+BTN_RIGHT
+Wire Wire Line
+	4450 3700 3650 3700
+Wire Wire Line
+	3650 3700 3650 3200
+Wire Wire Line
+	3650 3200 700  3200
+Wire Wire Line
+	700  3200 700  1900
+Wire Wire Line
+	700  1900 1400 1900
+Wire Wire Line
+	4450 3100 800  3100
+Wire Wire Line
+	800  3100 800  2200
+Wire Wire Line
+	800  2200 1400 2200
+Wire Wire Line
+	4450 3000 900  3000
+Wire Wire Line
+	900  3000 900  2100
+Wire Wire Line
+	900  2100 1400 2100
+Wire Wire Line
+	1400 2000 1000 2000
+Wire Wire Line
+	1000 2000 1000 2900
+Wire Wire Line
+	1000 2900 4450 2900
+Wire Wire Line
+	2200 2700 2200 2300
+Wire Wire Line
+	2200 2300 1900 2300
+Wire Wire Line
+	2200 2700 4450 2700
+Wire Wire Line
+	4450 2600 4050 2600
+Wire Wire Line
+	4050 2600 4050 2800
+Wire Wire Line
+	4050 2800 1100 2800
+Wire Wire Line
+	1100 2800 1100 2300
+Wire Wire Line
+	1100 2300 1400 2300
+Wire Wire Line
+	4450 2500 3550 2500
+Wire Wire Line
+	3550 2300 3650 2300
+Wire Wire Line
+	3650 2300 3650 2400
+Wire Wire Line
+	3650 2400 4450 2400
+Wire Wire Line
+	3350 2100 1900 2100
+Connection ~ 3350 2100
+Wire Wire Line
+	1900 2200 2200 2200
+Wire Wire Line
+	2200 2200 2200 2000
+Wire Wire Line
+	2200 2000 3250 2000
+Connection ~ 3250 2000
+$Comp
+L Device:Crystal Y1
+U 1 1 5BF3A13B
+P 7400 2550
+F 0 "Y1" V 7350 2700 50  0000 L CNN
+F 1 "12M" V 7450 2700 50  0000 L CNN
+F 2 "Crystal:Crystal_SMD_HC49-SD" H 7400 2550 50  0001 C CNN
+F 3 "~" H 7400 2550 50  0001 C CNN
+F 4 "Digi-Key" H 5150 350 50  0001 C CNN "Distrib1"
+F 5 "0.2178" H 5150 350 50  0001 C CNN "Distrib1Price"
+F 6 "XC2080CT-ND" H 0   0   50  0001 C CNN "Distrib1Part"
+	1    7400 2550
+	0    -1   1    0   
+$EndComp
+Text Notes 1400 1800 2    50   ~ 0
+ADC1
+Text Notes 1400 1900 2    50   ~ 0
+ADC0
+Text Notes 1400 2000 2    50   ~ 0
+MISO
+Text Notes 1400 2100 2    50   ~ 0
+MOSI
+Text Notes 1400 2200 2    50   ~ 0
+SCK
+Text Notes 1400 2300 2    50   ~ 0
+UART_RX
+Text Notes 1900 2100 0    50   ~ 0
+SCL
+Text Notes 1900 2200 0    50   ~ 0
+SDA
+Text Notes 1900 2300 0    50   ~ 0
+UART_TX
+Text Label 1900 2000 0    50   ~ 0
+DAC0
+Text Label 1900 1900 0    50   ~ 0
+DAC1
+Wire Wire Line
+	5650 5000 5650 5050
+Wire Wire Line
+	5650 5050 5550 5050
+Connection ~ 5550 5050
+Wire Wire Line
+	9150 3850 9900 3850
+$Comp
+L Switch:SW_Push SW6
+U 1 1 5C2FCECF
+P 7450 3250
+F 0 "SW6" H 7450 3535 50  0000 C CNN
+F 1 "Erase" H 7450 3444 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_B3S-1000" H 7450 3450 50  0001 C CNN
+F 3 "" H 7450 3450 50  0001 C CNN
+F 4 "Digi-Key" H 6450 -2650 50  0001 C CNN "Distrib1"
+F 5 "CKN9088CT-ND" H 6450 -2650 50  0001 C CNN "Distrib1Part"
+F 6 "0.1457" H 6450 -2650 50  0001 C CNN "Distrib1Price"
+F 7 "Farnell" H 6450 -2650 50  0001 C CNN "Distrib2"
+F 8 "2320087" H 6450 -2650 50  0001 C CNN "Distrib2Part"
+F 9 "0.107" H 6450 -2650 50  0001 C CNN "Distrib2Price"
+	1    7450 3250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5C36736A
+P 7750 3150
+AR Path="/5CCA506B/5C36736A" Ref="#PWR?"  Part="1" 
+AR Path="/5C36736A" Ref="#PWR01"  Part="1" 
+F 0 "#PWR01" H 7750 3000 50  0001 C CNN
+F 1 "+3V3" H 7765 3323 50  0000 C CNN
+F 2 "" H 7750 3150 50  0001 C CNN
+F 3 "" H 7750 3150 50  0001 C CNN
+	1    7750 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7750 3150 7750 3250
+Wire Wire Line
+	7750 3250 7650 3250
+Wire Wire Line
+	7250 3250 6850 3250
+Wire Wire Line
+	6850 3250 6850 2900
+Wire Wire Line
+	6850 2900 6450 2900
+Text Notes 7350 7500 0    50   ~ 0
+KiCon '19 badge (draft)
+Text Label 900  4000 0    50   ~ 0
+PIODCCLK
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5C36D5A3
+P 1000 5000
+AR Path="/5CCA506B/5C36D5A3" Ref="#PWR?"  Part="1" 
+AR Path="/5C36D5A3" Ref="#PWR0107"  Part="1" 
+F 0 "#PWR0107" H 1000 4850 50  0001 C CNN
+F 1 "+3V3" V 1000 5200 50  0000 C CNN
+F 2 "" H 1000 5000 50  0001 C CNN
+F 3 "" H 1000 5000 50  0001 C CNN
+	1    1000 5000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1000 4900 900  4900
+Wire Wire Line
+	1000 5000 900  5000
+Wire Bus Line
+	1500 4000 1500 4700
+Wire Bus Line
+	2200 4000 2200 4700
+$EndSCHEMATC
