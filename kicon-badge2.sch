@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:kicon-badge2-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -2024,8 +2023,6 @@ Wire Wire Line
 	6450 3600 8150 3600
 Text Notes 5700 5200 0    50   ~ 0
 pin-to-pin compatible with other\nfamilies: SAM3N, SAM3S, SAM4S, SAM7S
-Text Notes 0    -100 0    50   ~ 0
-TODO: fix LCD (outline, mounting holes)
 Text Notes 0    0    0    50   ~ 0
 TODO: do not mount capacitors for push buttons? ATSAMs have deglitchers 
 Wire Wire Line
@@ -2308,4 +2305,10 @@ Wire Bus Line
 	1500 4000 1500 4700
 Wire Bus Line
 	2200 4000 2200 4700
+Text Notes 0    -100 0    50   ~ 0
+TODO: mounted field
+Text Notes 9500 1450 1    50   ~ 0
+do not mount
+Text Notes 50   -200 0    50   ~ 0
+TODO: hand soldering->normal footprints
 $EndSCHEMATC
