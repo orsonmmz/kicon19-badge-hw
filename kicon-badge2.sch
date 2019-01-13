@@ -2036,8 +2036,6 @@ Wire Wire Line
 	3350 1100 3350 2100
 Wire Wire Line
 	3250 1200 3250 2000
-Text Notes 2200 1950 0    50   ~ 0
-SCL and SDA have\ninternal pull-ups
 Text Label 900  4100 0    50   ~ 0
 PROBE_IN0
 Text Label 900  4200 0    50   ~ 0
@@ -2177,14 +2175,14 @@ Wire Wire Line
 Wire Wire Line
 	3650 2400 4450 2400
 Wire Wire Line
-	3350 2100 1900 2100
+	3350 2100 2700 2100
 Connection ~ 3350 2100
 Wire Wire Line
 	1900 2200 2200 2200
 Wire Wire Line
 	2200 2200 2200 2000
 Wire Wire Line
-	2200 2000 3250 2000
+	2200 2000 2400 2000
 Connection ~ 3250 2000
 $Comp
 L Device:Crystal Y1
@@ -2306,8 +2304,68 @@ Wire Wire Line
 	1000 2000 1400 2000
 Wire Wire Line
 	1100 2300 1400 2300
+$Comp
+L Device:R R10
+U 1 1 5C3D308B
+P 2400 1750
+F 0 "R10" H 2330 1704 50  0000 R CNN
+F 1 "1k5" H 2330 1795 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2330 1750 50  0001 C CNN
+F 3 "~" H 2400 1750 50  0001 C CNN
+F 4 "Digi-Key" H 700 -900 50  0001 C CNN "Distrib1"
+F 5 "A121524CT-ND" H 700 -900 50  0001 C CNN "Distrib1Part"
+F 6 "0.01150" H 700 -900 50  0001 C CNN "Distrib1Price"
+	1    2400 1750
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5C3D400E
+P 2400 1500
+AR Path="/5CCA506B/5C3D400E" Ref="#PWR?"  Part="1" 
+AR Path="/5C3D400E" Ref="#PWR0108"  Part="1" 
+F 0 "#PWR0108" H 2400 1350 50  0001 C CNN
+F 1 "+3V3" H 2415 1673 50  0000 C CNN
+F 2 "" H 2400 1500 50  0001 C CNN
+F 3 "" H 2400 1500 50  0001 C CNN
+	1    2400 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 1500 2400 1550
+Wire Wire Line
+	2400 1900 2400 2000
+Connection ~ 2400 2000
+Wire Wire Line
+	2400 2000 3250 2000
+Wire Wire Line
+	2700 2100 2700 1900
+Connection ~ 2700 2100
+Wire Wire Line
+	2700 2100 1900 2100
+Wire Wire Line
+	2700 1600 2700 1550
+Wire Wire Line
+	2700 1550 2400 1550
 Wire Bus Line
 	1500 4000 1500 4700
 Wire Bus Line
 	2200 4000 2200 4700
+Connection ~ 2400 1550
+Wire Wire Line
+	2400 1550 2400 1600
+$Comp
+L Device:R R12
+U 1 1 5C443AE7
+P 2700 1750
+F 0 "R12" H 2630 1704 50  0000 R CNN
+F 1 "1k5" H 2630 1795 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2630 1750 50  0001 C CNN
+F 3 "~" H 2700 1750 50  0001 C CNN
+F 4 "Digi-Key" H 1000 -900 50  0001 C CNN "Distrib1"
+F 5 "A121524CT-ND" H 1000 -900 50  0001 C CNN "Distrib1Part"
+F 6 "0.01150" H 1000 -900 50  0001 C CNN "Distrib1Price"
+	1    2700 1750
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
