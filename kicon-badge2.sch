@@ -1883,16 +1883,16 @@ BTN_DOWN
 $Comp
 L Connector_Generic:Conn_02x07_Odd_Even J2
 U 1 1 5C496839
-P 1600 2100
-F 0 "J2" H 1650 2617 50  0000 C CNN
-F 1 "Ports" H 1650 2526 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x07_P2.54mm_Vertical" H 1600 2100 50  0001 C CNN
-F 3 "~" H 1600 2100 50  0001 C CNN
-F 4 "Digi-Key" H 0   0   50  0001 C CNN "Distrib1"
-F 5 "S2012EC-07-ND" H 0   0   50  0001 C CNN "Distrib1Part"
-F 6 "0.2043" H 0   0   50  0001 C CNN "Distrib1Price"
-	1    1600 2100
-	1    0    0    -1  
+P 1700 2100
+F 0 "J2" H 1750 2617 50  0000 C CNN
+F 1 "Ports" H 1750 2526 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x07_P2.54mm_Vertical" H 1700 2100 50  0001 C CNN
+F 3 "~" H 1700 2100 50  0001 C CNN
+F 4 "Digi-Key" H 100 0   50  0001 C CNN "Distrib1"
+F 5 "S2012EC-07-ND" H 100 0   50  0001 C CNN "Distrib1Part"
+F 6 "0.2043" H 100 0   50  0001 C CNN "Distrib1Price"
+	1    1700 2100
+	-1   0    0    -1  
 $EndComp
 $Comp
 L power:+3V3 #PWR?
@@ -2130,8 +2130,6 @@ Wire Wire Line
 	3550 3300 600  3300
 Wire Wire Line
 	600  3300 600  1800
-Wire Wire Line
-	600  1800 1400 1800
 Text Label 1350 6050 0    50   ~ 0
 BTN_LEFT
 Text Label 650  6050 0    50   ~ 0
@@ -2145,21 +2143,13 @@ Wire Wire Line
 Wire Wire Line
 	700  3200 700  1900
 Wire Wire Line
-	700  1900 1400 1900
-Wire Wire Line
 	4450 3100 800  3100
 Wire Wire Line
 	800  3100 800  2200
 Wire Wire Line
-	800  2200 1400 2200
-Wire Wire Line
 	4450 3000 900  3000
 Wire Wire Line
 	900  3000 900  2100
-Wire Wire Line
-	900  2100 1400 2100
-Wire Wire Line
-	1400 2000 1000 2000
 Wire Wire Line
 	1000 2000 1000 2900
 Wire Wire Line
@@ -2178,8 +2168,6 @@ Wire Wire Line
 	4050 2800 1100 2800
 Wire Wire Line
 	1100 2800 1100 2300
-Wire Wire Line
-	1100 2300 1400 2300
 Wire Wire Line
 	4450 2500 3550 2500
 Wire Wire Line
@@ -2306,6 +2294,18 @@ Text Notes 0    -100 0    50   ~ 0
 TODO: mounted field
 Text Notes 9500 1350 1    50   ~ 10
 DNF
+Wire Wire Line
+	600  1800 1400 1800
+Wire Wire Line
+	700  1900 1400 1900
+Wire Wire Line
+	800  2200 1400 2200
+Wire Wire Line
+	900  2100 1400 2100
+Wire Wire Line
+	1000 2000 1400 2000
+Wire Wire Line
+	1100 2300 1400 2300
 Wire Bus Line
 	1500 4000 1500 4700
 Wire Bus Line
