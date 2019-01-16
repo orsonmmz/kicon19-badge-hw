@@ -42,8 +42,8 @@ F 1 "100n" H 2665 6755 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 2588 6650 50  0001 C CNN
 F 3 "~" H 2550 6800 50  0001 C CNN
 F 4 "Digi-Key" H -1400 2650 50  0001 C CNN "Distrib1"
-F 5 "1276-1000-1-ND" H -1400 2650 50  0001 C CNN "Distrib1Part"
-F 6 "0.0154" H -1400 2650 50  0001 C CNN "Distrib1Price"
+F 5 "311-1344-1-ND" H -1400 2650 50  0001 C CNN "Distrib1Part"
+F 6 "0.0343" H -1400 2650 50  0001 C CNN "Distrib1Price"
 	1    2550 6800
 	1    0    0    -1  
 $EndComp
@@ -206,8 +206,8 @@ F 1 "68k" H 4780 7245 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 4780 7200 50  0001 C CNN
 F 3 "~" H 4850 7200 50  0001 C CNN
 F 4 "Digi-Key" H -1200 2650 50  0001 C CNN "Distrib1"
-F 5 "541-68KGCT-ND" H -1200 2650 50  0001 C CNN "Distrib1Part"
-F 6 "0.0138" H -1200 2650 50  0001 C CNN "Distrib1Price"
+F 5 "RMCF0603JT68K0CT-ND" H -1200 2650 50  0001 C CNN "Distrib1Part"
+F 6 "0.0056" H -1200 2650 50  0001 C CNN "Distrib1Price"
 	1    4850 7200
 	-1   0    0    1   
 $EndComp
@@ -681,8 +681,8 @@ F 1 "100n" H 7315 6005 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 7238 5900 50  0001 C CNN
 F 3 "~" H 7200 6050 50  0001 C CNN
 F 4 "Digi-Key" H 3900 -650 50  0001 C CNN "Distrib1"
-F 5 "1276-1000-1-ND" H 3900 -650 50  0001 C CNN "Distrib1Part"
-F 6 "0.0154" H 3900 -650 50  0001 C CNN "Distrib1Price"
+F 5 "311-1344-1-ND" H 3900 -650 50  0001 C CNN "Distrib1Part"
+F 6 "0.0343" H 3900 -650 50  0001 C CNN "Distrib1Price"
 	1    7200 6050
 	1    0    0    -1  
 $EndComp
@@ -695,8 +695,8 @@ F 1 "100n" H 7715 6005 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 7638 5900 50  0001 C CNN
 F 3 "~" H 7600 6050 50  0001 C CNN
 F 4 "Digi-Key" H 3900 -650 50  0001 C CNN "Distrib1"
-F 5 "1276-1000-1-ND" H 3900 -650 50  0001 C CNN "Distrib1Part"
-F 6 "0.0154" H 3900 -650 50  0001 C CNN "Distrib1Price"
+F 5 "311-1344-1-ND" H 3900 -650 50  0001 C CNN "Distrib1Part"
+F 6 "0.0343" H 3900 -650 50  0001 C CNN "Distrib1Price"
 	1    7600 6050
 	1    0    0    -1  
 $EndComp
@@ -709,8 +709,8 @@ F 1 "100n" H 8115 6005 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 8038 5900 50  0001 C CNN
 F 3 "~" H 8000 6050 50  0001 C CNN
 F 4 "Digi-Key" H 3900 -650 50  0001 C CNN "Distrib1"
-F 5 "1276-1000-1-ND" H 3900 -650 50  0001 C CNN "Distrib1Part"
-F 6 "0.0154" H 3900 -650 50  0001 C CNN "Distrib1Price"
+F 5 "311-1344-1-ND" H 3900 -650 50  0001 C CNN "Distrib1Part"
+F 6 "0.0343" H 3900 -650 50  0001 C CNN "Distrib1Price"
 	1    8000 6050
 	1    0    0    -1  
 $EndComp
@@ -723,8 +723,8 @@ F 1 "100n" H 8515 6005 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 8438 5900 50  0001 C CNN
 F 3 "~" H 8400 6050 50  0001 C CNN
 F 4 "Digi-Key" H 3900 -650 50  0001 C CNN "Distrib1"
-F 5 "1276-1000-1-ND" H 3900 -650 50  0001 C CNN "Distrib1Part"
-F 6 "0.0154" H 3900 -650 50  0001 C CNN "Distrib1Price"
+F 5 "311-1344-1-ND" H 3900 -650 50  0001 C CNN "Distrib1Part"
+F 6 "0.0343" H 3900 -650 50  0001 C CNN "Distrib1Price"
 	1    8400 6050
 	1    0    0    -1  
 $EndComp
@@ -823,8 +823,8 @@ F 1 "100n" V 1400 7100 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 1388 7100 50  0001 C CNN
 F 3 "~" H 1350 7250 50  0001 C CNN
 F 4 "Digi-Key" H 350 1200 50  0001 C CNN "Distrib1"
-F 5 "1276-1000-1-ND" H 350 1200 50  0001 C CNN "Distrib1Part"
-F 6 "0.0154" H 350 1200 50  0001 C CNN "Distrib1Price"
+F 5 "311-1344-1-ND" H 350 1200 50  0001 C CNN "Distrib1Part"
+F 6 "0.0343" H 350 1200 50  0001 C CNN "Distrib1Price"
 	1    1350 7250
 	-1   0    0    1   
 $EndComp
@@ -854,8 +854,8 @@ F 1 "100n" H 9415 6005 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 9338 5900 50  0001 C CNN
 F 3 "~" H 9300 6050 50  0001 C CNN
 F 4 "Digi-Key" H 4400 -650 50  0001 C CNN "Distrib1"
-F 5 "1276-1000-1-ND" H 4400 -650 50  0001 C CNN "Distrib1Part"
-F 6 "0.0154" H 4400 -650 50  0001 C CNN "Distrib1Price"
+F 5 "311-1344-1-ND" H 4400 -650 50  0001 C CNN "Distrib1Part"
+F 6 "0.0343" H 4400 -650 50  0001 C CNN "Distrib1Price"
 	1    9300 6050
 	1    0    0    -1  
 $EndComp
@@ -895,8 +895,8 @@ F 1 "100n" V 700 7100 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 688 7100 50  0001 C CNN
 F 3 "~" H 650 7250 50  0001 C CNN
 F 4 "Digi-Key" H -350 700 50  0001 C CNN "Distrib1"
-F 5 "1276-1000-1-ND" H -350 700 50  0001 C CNN "Distrib1Part"
-F 6 "0.0154" H -350 700 50  0001 C CNN "Distrib1Price"
+F 5 "311-1344-1-ND" H -350 700 50  0001 C CNN "Distrib1Part"
+F 6 "0.0343" H -350 700 50  0001 C CNN "Distrib1Price"
 	1    650  7250
 	-1   0    0    1   
 $EndComp
@@ -943,8 +943,8 @@ F 1 "100n" V 1400 6150 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 1388 6150 50  0001 C CNN
 F 3 "~" H 1350 6300 50  0001 C CNN
 F 4 "Digi-Key" H 350 -750 50  0001 C CNN "Distrib1"
-F 5 "1276-1000-1-ND" H 350 -750 50  0001 C CNN "Distrib1Part"
-F 6 "0.0154" H 350 -750 50  0001 C CNN "Distrib1Price"
+F 5 "311-1344-1-ND" H 350 -750 50  0001 C CNN "Distrib1Part"
+F 6 "0.0343" H 350 -750 50  0001 C CNN "Distrib1Price"
 	1    1350 6300
 	-1   0    0    1   
 $EndComp
@@ -989,8 +989,8 @@ F 1 "100n" V 700 6150 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 688 6150 50  0001 C CNN
 F 3 "~" H 650 6300 50  0001 C CNN
 F 4 "Digi-Key" H -350 -1250 50  0001 C CNN "Distrib1"
-F 5 "1276-1000-1-ND" H -350 -1250 50  0001 C CNN "Distrib1Part"
-F 6 "0.0154" H -350 -1250 50  0001 C CNN "Distrib1Price"
+F 5 "311-1344-1-ND" H -350 -1250 50  0001 C CNN "Distrib1Part"
+F 6 "0.0343" H -350 -1250 50  0001 C CNN "Distrib1Price"
 	1    650  6300
 	-1   0    0    1   
 $EndComp
@@ -1199,8 +1199,8 @@ F 1 "100n" V 2800 3550 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 2938 3550 50  0001 C CNN
 F 3 "~" H 2900 3700 50  0001 C CNN
 F 4 "Digi-Key" H -6600 1800 50  0001 C CNN "Distrib1"
-F 5 "1276-1000-1-ND" H -6600 1800 50  0001 C CNN "Distrib1Part"
-F 6 "0.0154" H -6600 1800 50  0001 C CNN "Distrib1Price"
+F 5 "311-1344-1-ND" H -6600 1800 50  0001 C CNN "Distrib1Part"
+F 6 "0.0343" H -6600 1800 50  0001 C CNN "Distrib1Price"
 	1    2900 3700
 	0    -1   1    0   
 $EndComp
@@ -1431,8 +1431,8 @@ F 1 "100n" H 9815 6005 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 9738 5900 50  0001 C CNN
 F 3 "~" H 9700 6050 50  0001 C CNN
 F 4 "Digi-Key" H 6000 -650 50  0001 C CNN "Distrib1"
-F 5 "1276-1000-1-ND" H 6000 -650 50  0001 C CNN "Distrib1Part"
-F 6 "0.0154" H 6000 -650 50  0001 C CNN "Distrib1Price"
+F 5 "311-1344-1-ND" H 6000 -650 50  0001 C CNN "Distrib1Part"
+F 6 "0.0343" H 6000 -650 50  0001 C CNN "Distrib1Price"
 	1    9700 6050
 	1    0    0    -1  
 $EndComp
@@ -1445,8 +1445,8 @@ F 1 "100n" H 10215 6005 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 10138 5900 50  0001 C CNN
 F 3 "~" H 10100 6050 50  0001 C CNN
 F 4 "Digi-Key" H 6000 -650 50  0001 C CNN "Distrib1"
-F 5 "1276-1000-1-ND" H 6000 -650 50  0001 C CNN "Distrib1Part"
-F 6 "0.0154" H 6000 -650 50  0001 C CNN "Distrib1Price"
+F 5 "311-1344-1-ND" H 6000 -650 50  0001 C CNN "Distrib1Part"
+F 6 "0.0343" H 6000 -650 50  0001 C CNN "Distrib1Price"
 	1    10100 6050
 	1    0    0    -1  
 $EndComp
@@ -1459,8 +1459,8 @@ F 1 "100n" H 10615 6005 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 10538 5900 50  0001 C CNN
 F 3 "~" H 10500 6050 50  0001 C CNN
 F 4 "Digi-Key" H 6000 -650 50  0001 C CNN "Distrib1"
-F 5 "1276-1000-1-ND" H 6000 -650 50  0001 C CNN "Distrib1Part"
-F 6 "0.0154" H 6000 -650 50  0001 C CNN "Distrib1Price"
+F 5 "311-1344-1-ND" H 6000 -650 50  0001 C CNN "Distrib1Part"
+F 6 "0.0343" H 6000 -650 50  0001 C CNN "Distrib1Price"
 	1    10500 6050
 	1    0    0    -1  
 $EndComp
@@ -1501,8 +1501,8 @@ F 1 "100n" H 11015 6005 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 10938 5900 50  0001 C CNN
 F 3 "~" H 10900 6050 50  0001 C CNN
 F 4 "Digi-Key" H 6000 -650 50  0001 C CNN "Distrib1"
-F 5 "1276-1000-1-ND" H 6000 -650 50  0001 C CNN "Distrib1Part"
-F 6 "0.0154" H 6000 -650 50  0001 C CNN "Distrib1Price"
+F 5 "311-1344-1-ND" H 6000 -650 50  0001 C CNN "Distrib1Part"
+F 6 "0.0343" H 6000 -650 50  0001 C CNN "Distrib1Price"
 	1    10900 6050
 	1    0    0    -1  
 $EndComp
@@ -1543,8 +1543,8 @@ F 1 "100n" H 4015 1155 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 3938 1050 50  0001 C CNN
 F 3 "~" H 3900 1200 50  0001 C CNN
 F 4 "Digi-Key" H 200 -5500 50  0001 C CNN "Distrib1"
-F 5 "1276-1000-1-ND" H 200 -5500 50  0001 C CNN "Distrib1Part"
-F 6 "0.0154" H 200 -5500 50  0001 C CNN "Distrib1Price"
+F 5 "311-1344-1-ND" H 200 -5500 50  0001 C CNN "Distrib1Part"
+F 6 "0.0343" H 200 -5500 50  0001 C CNN "Distrib1Price"
 	1    3900 1200
 	1    0    0    -1  
 $EndComp
@@ -1675,8 +1675,8 @@ F 1 "100n" H 8265 4495 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 8188 4300 50  0001 C CNN
 F 3 "~" H 8150 4450 50  0001 C CNN
 F 4 "Digi-Key" H 7150 -1600 50  0001 C CNN "Distrib1"
-F 5 "1276-1000-1-ND" H 7150 -1600 50  0001 C CNN "Distrib1Part"
-F 6 "0.0154" H 7150 -1600 50  0001 C CNN "Distrib1Price"
+F 5 "311-1344-1-ND" H 7150 -1600 50  0001 C CNN "Distrib1Part"
+F 6 "0.0343" H 7150 -1600 50  0001 C CNN "Distrib1Price"
 	1    8150 4450
 	-1   0    0    1   
 $EndComp
@@ -1711,8 +1711,8 @@ F 1 "100n" H 6965 4355 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 6888 4250 50  0001 C CNN
 F 3 "~" H 6850 4400 50  0001 C CNN
 F 4 "Digi-Key" H 3550 -2300 50  0001 C CNN "Distrib1"
-F 5 "1276-1000-1-ND" H 3550 -2300 50  0001 C CNN "Distrib1Part"
-F 6 "0.0154" H 3550 -2300 50  0001 C CNN "Distrib1Price"
+F 5 "311-1344-1-ND" H 3550 -2300 50  0001 C CNN "Distrib1Part"
+F 6 "0.0343" H 3550 -2300 50  0001 C CNN "Distrib1Price"
 	1    6850 4400
 	-1   0    0    -1  
 $EndComp
@@ -2347,10 +2347,6 @@ Wire Wire Line
 	2700 1600 2700 1550
 Wire Wire Line
 	2700 1550 2400 1550
-Wire Bus Line
-	1500 4000 1500 4700
-Wire Bus Line
-	2200 4000 2200 4700
 Connection ~ 2400 1550
 Wire Wire Line
 	2400 1550 2400 1600
@@ -2368,4 +2364,8 @@ F 6 "0.01150" H 1000 -900 50  0001 C CNN "Distrib1Price"
 	1    2700 1750
 	-1   0    0    1   
 $EndComp
+Wire Bus Line
+	1500 4000 1500 4700
+Wire Bus Line
+	2200 4000 2200 4700
 $EndSCHEMATC
