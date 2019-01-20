@@ -1991,6 +1991,7 @@ F 6 "0.0064" H 3200 -2700 50  0001 C CNN "Distrib1Price"
 F 7 "Mouser" H 3200 -2700 50  0001 C CNN "Distrib2"
 F 8 "652-CR0603-JW-220ELF	" H 3200 -2700 50  0001 C CNN "Distrib2Part"
 F 9 "0.006" H 3200 -2700 50  0001 C CNN "Distrib2Price"
+F 10 "No" H 9550 1250 50  0001 C CNN "Mounted"
 	1    9550 1250
 	1    0    0    -1  
 $EndComp
