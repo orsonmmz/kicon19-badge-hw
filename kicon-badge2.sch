@@ -23,11 +23,8 @@ F 1 "Conn_ARM_JTAG_SWD_20" H 8920 2255 50  0000 R CNN
 F 2 "Connector_IDC:IDC-Header_2x10_P2.54mm_Vertical" H 9900 1250 50  0001 L TNN
 F 3 "http://infocenter.arm.com/help/topic/com.arm.doc.dui0499b/DUI0499B_system_design_reference.pdf" V 9100 1050 50  0001 C CNN
 F 4 "Digi-Key" H 3150 -300 50  0001 C CNN "Distrib1"
-F 5 "ED10529-ND" H 3150 -300 50  0001 C CNN "Distrib1Part"
-F 6 "0.3825" H 3150 -300 50  0001 C CNN "Distrib1Price"
-F 7 "Farnell" H 3150 -300 50  0001 C CNN "Distrib2"
-F 8 "2668422" H 3150 -300 50  0001 C CNN "Distrib2Part"
-F 9 "0.801" H 3150 -300 50  0001 C CNN "Distrib2Price"
+F 5 "ED10524-ND" H 3150 -300 50  0001 C CNN "Distrib1Part"
+F 6 "0.33281" H 3150 -300 50  0001 C CNN "Distrib1Price"
 	1    9450 2300
 	-1   0    0    -1  
 $EndComp
