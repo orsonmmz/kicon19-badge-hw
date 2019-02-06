@@ -1076,7 +1076,7 @@ F 1 "LogicProbes" H 618 5126 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x11_P2.54mm_Horizontal" H 700 4500 50  0001 C CNN
 F 3 "~" H 700 4500 50  0001 C CNN
 F 4 "Digi-Key" H -10250 1800 50  0001 C CNN "Distrib1"
-F 5 "WM50013-09-ND" H -10250 1800 50  0001 C CNN "Distrib1Part"
+F 5 "WM50013-11-ND" H -10250 1800 50  0001 C CNN "Distrib1Part"
 F 6 "0.3995" H -10250 1800 50  0001 C CNN "Distrib1Price"
 F 7 "Mouser" H -10250 1800 50  0001 C CNN "Distrib2"
 F 8 "538-22-28-8090" H -10250 1800 50  0001 C CNN "Distrib2Part"
