@@ -368,8 +368,8 @@ F 1 "LED" V 6148 6683 50  0000 R CNN
 F 2 "LED_SMD:LED_0805_2012Metric" H 6200 6800 50  0001 C CNN
 F 3 "~" H 6200 6800 50  0001 C CNN
 F 4 "Digi-Key" H -1700 4150 50  0001 C CNN "Distrib1"
-F 5 "160-1468-1-ND" H -1700 4150 50  0001 C CNN "Distrib1Part"
-F 6 "0.1159" H -1700 4150 50  0001 C CNN "Distrib1Price"
+F 5 "732-4986-1-ND" H -1700 4150 50  0001 C CNN "Distrib1Part"
+F 6 "0.1492" H -1700 4150 50  0001 C CNN "Distrib1Price"
 F 7 "Mouser" H -1700 4150 50  0001 C CNN "Distrib2"
 F 8 "859-LTST-S220KGKT" H -1700 4150 50  0001 C CNN "Distrib2Part"
 F 9 "0.058" H -1700 4150 50  0001 C CNN "Distrib2Price"
@@ -504,8 +504,8 @@ F 1 "LED" H 3550 2350 50  0001 C CNN
 F 2 "LED_SMD:LED_0805_2012Metric" H 3400 2300 50  0001 C CNN
 F 3 "~" H 3400 2300 50  0001 C CNN
 F 4 "Digi-Key" H 1300 -350 50  0001 C CNN "Distrib1"
-F 5 "160-1468-1-ND" H 1300 -350 50  0001 C CNN "Distrib1Part"
-F 6 "0.1159" H 1300 -350 50  0001 C CNN "Distrib1Price"
+F 5 "732-4986-1-ND" H 1300 -350 50  0001 C CNN "Distrib1Part"
+F 6 "0.1492" H 1300 -350 50  0001 C CNN "Distrib1Price"
 F 7 "Mouser" H 1300 -350 50  0001 C CNN "Distrib2"
 F 8 "859-LTST-S220KGKT" H 1300 -350 50  0001 C CNN "Distrib2Part"
 F 9 "0.058" H 1300 -350 50  0001 C CNN "Distrib2Price"
@@ -521,8 +521,8 @@ F 1 "LED" H 3550 2550 50  0001 C CNN
 F 2 "LED_SMD:LED_0805_2012Metric" H 3400 2500 50  0001 C CNN
 F 3 "~" H 3400 2500 50  0001 C CNN
 F 4 "Digi-Key" H 1300 -350 50  0001 C CNN "Distrib1"
-F 5 "160-1468-1-ND" H 1300 -350 50  0001 C CNN "Distrib1Part"
-F 6 "0.1159" H 1300 -350 50  0001 C CNN "Distrib1Price"
+F 5 "732-4986-1-ND" H 1300 -350 50  0001 C CNN "Distrib1Part"
+F 6 "0.1492" H 1300 -350 50  0001 C CNN "Distrib1Price"
 F 7 "Mouser" H 1300 -350 50  0001 C CNN "Distrib2"
 F 8 "859-LTST-S220KGKT" H 1300 -350 50  0001 C CNN "Distrib2Part"
 F 9 "0.058" H 1300 -350 50  0001 C CNN "Distrib2Price"
@@ -795,11 +795,11 @@ Wire Wire Line
 	6800 6300 6800 6250
 NoConn ~ 9900 4050
 $Comp
-L Switch:SW_Push SW3
+L Switch:SW_Push SW1
 U 1 1 5BFF467B
 P 1500 7250
-F 0 "SW3" V 1546 7398 50  0000 L CNN
-F 1 "Up" V 1455 7398 50  0000 L CNN
+F 0 "SW1" V 1546 7398 50  0000 L CNN
+F 1 "BTN1" V 1455 7398 50  0000 L CNN
 F 2 "Button_Switch_SMD:SW_SPST_PTS645" H 1500 7450 50  0001 C CNN
 F 3 "" H 1500 7450 50  0001 C CNN
 F 4 "Digi-Key" H 500 1350 50  0001 C CNN "Distrib1"
@@ -812,10 +812,10 @@ F 9 "0.107" H 500 1350 50  0001 C CNN "Distrib2Price"
 	0    1    -1   0   
 $EndComp
 $Comp
-L Device:C C3
+L Device:C C1
 U 1 1 5BFF468D
 P 1350 7250
-F 0 "C3" V 1400 7350 50  0000 C CNN
+F 0 "C1" V 1400 7350 50  0000 C CNN
 F 1 "100n" V 1400 7100 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 1388 7100 50  0001 C CNN
 F 3 "~" H 1350 7250 50  0001 C CNN
@@ -828,7 +828,7 @@ $EndComp
 Wire Wire Line
 	1500 7000 1500 7050
 Text Label 1350 7000 0    50   ~ 0
-BTN_UP
+BTN1
 $Comp
 L power:GND #PWR010
 U 1 1 5BFF4698
@@ -867,11 +867,11 @@ Wire Wire Line
 Text Notes 6750 5550 0    50   ~ 0
 MCU capacitors: 100n for each VDD* + one 4.7uF per voltage
 $Comp
-L Switch:SW_Push SW4
+L Switch:SW_Push SW2
 U 1 1 5C252B52
 P 800 7250
-F 0 "SW4" V 846 7398 50  0000 L CNN
-F 1 "Down" V 755 7398 50  0000 L CNN
+F 0 "SW2" V 846 7398 50  0000 L CNN
+F 1 "BTN2" V 755 7398 50  0000 L CNN
 F 2 "Button_Switch_SMD:SW_SPST_PTS645" H 800 7450 50  0001 C CNN
 F 3 "" H 800 7450 50  0001 C CNN
 F 4 "Digi-Key" H -200 850 50  0001 C CNN "Distrib1"
@@ -884,10 +884,10 @@ F 9 "0.107" H -200 850 50  0001 C CNN "Distrib2Price"
 	0    1    -1   0   
 $EndComp
 $Comp
-L Device:C C4
+L Device:C C2
 U 1 1 5C252B5E
 P 650 7250
-F 0 "C4" V 700 7350 50  0000 C CNN
+F 0 "C2" V 700 7350 50  0000 C CNN
 F 1 "100n" V 700 7100 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 688 7100 50  0001 C CNN
 F 3 "~" H 650 7250 50  0001 C CNN
@@ -900,7 +900,7 @@ $EndComp
 Wire Wire Line
 	800  7000 800  7050
 Text Label 650  7000 0    50   ~ 0
-BTN_DOWN
+BTN2
 $Comp
 L power:GND #PWR011
 U 1 1 5C252B66
@@ -915,11 +915,11 @@ $EndComp
 Wire Wire Line
 	650  7500 650  7450
 $Comp
-L Switch:SW_Push SW1
+L Switch:SW_Push SW3
 U 1 1 5C25706F
 P 1500 6300
-F 0 "SW1" V 1546 6448 50  0000 L CNN
-F 1 "Left" V 1455 6448 50  0000 L CNN
+F 0 "SW3" V 1546 6448 50  0000 L CNN
+F 1 "BTN3" V 1455 6448 50  0000 L CNN
 F 2 "Button_Switch_SMD:SW_SPST_PTS645" H 1500 6500 50  0001 C CNN
 F 3 "" H 1500 6500 50  0001 C CNN
 F 4 "Digi-Key" H 500 -600 50  0001 C CNN "Distrib1"
@@ -932,10 +932,10 @@ F 9 "0.107" H 500 -600 50  0001 C CNN "Distrib2Price"
 	0    1    -1   0   
 $EndComp
 $Comp
-L Device:C C1
+L Device:C C3
 U 1 1 5C25707B
 P 1350 6300
-F 0 "C1" V 1400 6400 50  0000 C CNN
+F 0 "C3" V 1400 6400 50  0000 C CNN
 F 1 "100n" V 1400 6150 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 1388 6150 50  0001 C CNN
 F 3 "~" H 1350 6300 50  0001 C CNN
@@ -961,11 +961,11 @@ $EndComp
 Wire Wire Line
 	1350 6550 1350 6500
 $Comp
-L Switch:SW_Push SW2
+L Switch:SW_Push SW4
 U 1 1 5C25BD90
 P 800 6300
-F 0 "SW2" V 846 6448 50  0000 L CNN
-F 1 "Right" V 755 6448 50  0000 L CNN
+F 0 "SW4" V 846 6448 50  0000 L CNN
+F 1 "BTN4" V 755 6448 50  0000 L CNN
 F 2 "Button_Switch_SMD:SW_SPST_PTS645" H 800 6500 50  0001 C CNN
 F 3 "" H 800 6500 50  0001 C CNN
 F 4 "Digi-Key" H -200 -1100 50  0001 C CNN "Distrib1"
@@ -978,10 +978,10 @@ F 9 "0.107" H -200 -1100 50  0001 C CNN "Distrib2Price"
 	0    1    -1   0   
 $EndComp
 $Comp
-L Device:C C2
+L Device:C C4
 U 1 1 5C25BD9C
 P 650 6300
-F 0 "C2" V 700 6400 50  0000 C CNN
+F 0 "C4" V 700 6400 50  0000 C CNN
 F 1 "100n" V 700 6150 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 688 6150 50  0001 C CNN
 F 3 "~" H 650 6300 50  0001 C CNN
@@ -1870,13 +1870,13 @@ TMS
 Text Label 6450 2400 0    50   ~ 0
 TCK
 Text Label 6450 1700 0    50   ~ 0
-BTN_LEFT
+BTN3
 Text Label 6450 1800 0    50   ~ 0
-BTN_RIGHT
+BTN4
 Text Label 4450 1800 2    50   ~ 0
-BTN_UP
+BTN1
 Text Label 4450 1700 2    50   ~ 0
-BTN_DOWN
+BTN2
 $Comp
 L Connector_Generic:Conn_02x07_Odd_Even J2
 U 1 1 5C496839
@@ -2022,8 +2022,6 @@ Wire Wire Line
 	6450 3600 8150 3600
 Text Notes 5700 5200 0    50   ~ 0
 pin-to-pin compatible with other\nfamilies: SAM3N, SAM3S, SAM4S, SAM7S
-Text Notes 0    0    0    50   ~ 0
-TODO: do not mount capacitors for push buttons? ATSAMs have deglitchers 
 Wire Wire Line
 	4450 2000 3250 2000
 Wire Wire Line
@@ -2127,9 +2125,9 @@ Wire Wire Line
 Wire Wire Line
 	600  3300 600  1800
 Text Label 1350 6050 0    50   ~ 0
-BTN_LEFT
+BTN3
 Text Label 650  6050 0    50   ~ 0
-BTN_RIGHT
+BTN4
 Wire Wire Line
 	4450 3700 3650 3700
 Wire Wire Line
@@ -2286,8 +2284,6 @@ Wire Wire Line
 	1000 4900 900  4900
 Wire Wire Line
 	1000 5000 900  5000
-Text Notes 0    -100 0    50   ~ 0
-TODO: mounted field
 Text Notes 9500 1350 1    50   ~ 10
 DNF
 Wire Wire Line
