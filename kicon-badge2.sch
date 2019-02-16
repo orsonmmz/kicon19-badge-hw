@@ -1979,7 +1979,7 @@ L Device:R R7
 U 1 1 5C2F2686
 P 9550 1250
 F 0 "R7" H 9620 1296 50  0000 L CNN
-F 1 "22" H 9620 1205 50  0000 L CNN
+F 1 "DNF_22" H 9620 1205 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 9480 1250 50  0001 C CNN
 F 3 "~" H 9550 1250 50  0001 C CNN
 F 4 "Digi-Key" H 3200 -2700 50  0001 C CNN "Distrib1"
@@ -2263,8 +2263,8 @@ Wire Wire Line
 	6850 3250 6850 2900
 Wire Wire Line
 	6850 2900 6450 2900
-Text Notes 7350 7500 0    50   ~ 0
-KiCon '19 badge (draft)
+Text Notes 7350 7500 0    80   ~ 0
+KiCon '19 badge
 Text Label 900  4000 0    50   ~ 0
 PIODCCLK
 $Comp
