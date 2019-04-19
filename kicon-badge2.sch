@@ -2362,4 +2362,6 @@ Wire Bus Line
 	1500 4000 1500 4700
 Wire Bus Line
 	2200 4000 2200 4700
+Text Notes 7000 7100 0    50   ~ 0
+Copyright Maciej Suminski 2019\nThis documentation describes Open Hardware and is licensed under the CERN OHL v. 1.2.\nYou may redistribute and modify this documentation under the terms of the\nCERN OHL v.1.2. (http://ohwr.org/cernohl). This documentation is distributed\nWITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF MERCHANTABILITY,\nSATISFACTORY QUALITY AND FITNESS FOR A PARTICULAR PURPOSE.\nPlease see the CERN OHL v.1.2 for applicable conditions.
 $EndSCHEMATC

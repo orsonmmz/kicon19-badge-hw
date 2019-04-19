@@ -1,8 +1,8 @@
-(kicad_pcb (version 20171130) (host pcbnew "(5.1.0-rc1-65-gf364e81a9-dirty)")
+(kicad_pcb (version 20171130) (host pcbnew "(5.1.0)")
 
   (general
     (thickness 1.6)
-    (drawings 52)
+    (drawings 53)
     (tracks 951)
     (zones 0)
     (modules 63)
@@ -66,7 +66,7 @@
     (pad_to_mask_clearance 0.051)
     (solder_mask_min_width 0.25)
     (aux_axis_origin 0 0)
-    (visible_elements FFFDFFFF)
+    (visible_elements FFFDEFFF)
     (pcbplotparams
       (layerselection 0x010f0_ffffffff)
       (usegerberextensions false)
@@ -4213,6 +4213,9 @@
     )
   )
 
+  (gr_text "Copyright Maciej Suminski 2019\nThis documentation describes Open Hardware and is licensed under the CERN OHL v. 1.2.\nYou may redistribute and modify this documentation under the terms of the\nCERN OHL v.1.2. (http://ohwr.org/cernohl). This documentation is distributed\nWITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF MERCHANTABILITY,\nSATISFACTORY QUALITY AND FITNESS FOR A PARTICULAR PURPOSE.\nPlease see the CERN OHL v.1.2 for applicable conditions." (at 177 172) (layer Cmts.User)
+    (effects (font (size 1 1) (thickness 0.1)) (justify left))
+  )
   (gr_text 2019 (at 181.2 72) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
