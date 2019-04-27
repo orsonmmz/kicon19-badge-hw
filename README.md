@@ -2,6 +2,8 @@
 
 _(firmware is in another [repository](https://github.com/orsonmmz/kicon19-badge-sw))_
 
+You can order a badge from [Aisler](https://aisler.net/kicad-kicon/playground/kicon-badge2)!
+
 ## Features
 * Microchip ATSAM4SD16BA (Cortex-M4, up to 120MHz, 160KB RAM, 1MB FLASH, 64-LQFP; [pdf](http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-11100-32-bit%20Cortex-M4-Microcontroller-SAM4S_Datasheet.pdf))
 * 128x64 pixels, 1.2" ([SH1106](https://www.velleman.eu/downloads/29/infosheets/sh1106_datasheet.pdf)) or 0.96" ([SSD1306](https://cdn-shop.adafruit.com/datasheets/SSD1306.pdf)) OLED display (variant with I2C and GND on pin 1)
