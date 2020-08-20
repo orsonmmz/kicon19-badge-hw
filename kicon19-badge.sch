@@ -2357,8 +2357,8 @@ F 6 "0.01150" H 1000 -900 50  0001 C CNN "Distrib1Price"
 	1    2700 1750
 	-1   0    0    1   
 $EndComp
-Text Notes 7000 7100 0    50   ~ 0
-Copyright Maciej Suminski 2019\nThis documentation describes Open Hardware and is licensed under the CERN OHL v. 1.2.\nYou may redistribute and modify this documentation under the terms of the\nCERN OHL v.1.2. (http://ohwr.org/cernohl). This documentation is distributed\nWITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF MERCHANTABILITY,\nSATISFACTORY QUALITY AND FITNESS FOR A PARTICULAR PURPOSE.\nPlease see the CERN OHL v.1.2 for applicable conditions.
+Text Notes 6980 7140 0    40   ~ 0
+Copyright Maciej Suminski 2019.\nThis source describes Open Hardware and is licensed under the CERN-OHL-S v2 or later.\nYou may redistribute and modify this source and make products using it under the terms of\nthe CERN-OHL-S v2 or later (https:/cern.ch/cern-ohl). This source is distributed WITHOUT ANY EXPRESS\nOR IMPLIED WARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR\nA PARTICULAR PURPOSE. Please see the CERN-OHL-S v2 for applicable conditions.\nSource location: https://github.com/orsonmmz/kicon19-badge-hw\nAs per CERN-OHL-S v2 section 4, should You produce hardware based on this source, You must maintain\nthe Source Location visible on the external case of the badge or other products you make using this source.
 Wire Bus Line
 	1500 4000 1500 4700
 Wire Bus Line

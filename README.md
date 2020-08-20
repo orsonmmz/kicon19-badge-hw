@@ -28,4 +28,4 @@ The two problems have the same cause: 3.3V is connected to the JTAG pin header t
 ![Missing connections](/documentation/readme/vref.jpg)
 
 ## License
-Licensed under [CERN OHL v.1.2](https://ohwr.org/cernohl) or later.
+Licensed under [CERN-OHL-S v2](https://ohwr.org/cernohl) or later.
